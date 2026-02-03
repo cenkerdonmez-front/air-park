@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "brand": "AIRPARK",
+        "rooms": "Rooms",
+        "restaurant": "Restaurant & Bar",
+        "spa": "Spa & Wellness",
+        "wedding": "Wedding",
+        "meeting": "Meeting & Events",
+        "sustainability": "Sustainability",
+        "reservation": "Reservation"
+    },
+    "hero": {
+        "title": "Welcome to Our World",
+        "cta": "Make a Reservation"
+    },
+    "rooms": {
+        "title": "Rooms & Suites",
+        "subtitle": "Premium Accommodation",
+        "viewAll": "View All",
+        "detailsButton": "View Details",
+        "deluxeTwinGarden": {
+            "name": "Deluxe Twin Garden",
+            "category": "Garden View",
+            "description": "Experience true relaxation in our twin garden view room. Enjoy the comfort where modern architecture meets nature."
+        },
+        "deluxeFrenchGarden": {
+            "name": "Deluxe French Garden",
+            "category": "Elegance & Nature",
+            "description": "Experience true relaxation in our garden view room. Discover serenity in our interior adorned with fine details."
+        },
+        "deluxeFrenchCity": {
+            "name": "Deluxe French City",
+            "category": "City Panorama",
+            "description": "Experience true relaxation in our city view room. Watch the sparkling city view from your comfortable suite."
+        }
+    },
+    "sustainability": {
+        "subtitle": "Our Promise to the Future",
+        "title": "Sustainability",
+        "description": "On our sustainability journey, we are eager to accelerate our steps with all our team, business partners, and dear guests on this path we take with hope and excitement.",
+        "cta": "More Information"
+    },
+    "footer": {
+        "cta": {
+            "title": "Book your place for an unforgettable experience.",
+            "button": "Stay With Us"
+        },
+        "address": {
+            "title": "Address",
+            "content": "Dede Mahallesi, Haktanır Sokak No:4\nBademlik, 26030 Odunpazarı/Eskişehir"
+        },
+        "contact": {
+            "title": "Contact",
+            "phone": "0 222 211 03 00",
+            "email": "info@airparkhotel.com"
+        },
+        "social": {
+            "title": "Follow Us"
+        },
+        "app": {
+            "title": "App"
+        },
+        "legal": {
+            "privacy": "Privacy",
+            "cookies": "Cookies",
+            "sales": "Distance Sales",
+            "disclosure": "Disclosure Text",
+            "copyright": "© 2024 AIRPARKHOTEL. ALL RIGHTS RESERVED."
+        }
+    },
+    "common": {
+        "squareMeters": "m²"
+    }
+}

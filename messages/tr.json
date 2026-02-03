@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "brand": "AIRPARK",
+        "rooms": "Odalar",
+        "restaurant": "Restaurant & Bar",
+        "spa": "Spa & Sağlık",
+        "wedding": "Düğün",
+        "meeting": "Toplantı & Etkinlik",
+        "sustainability": "Sürdürülebilirlik",
+        "reservation": "Rezervasyon"
+    },
+    "hero": {
+        "title": "Dünyamıza Hoşgeldiniz",
+        "cta": "Rezervasyon Yap"
+    },
+    "rooms": {
+        "title": "Odalar & Süitler",
+        "subtitle": "Seçkin Konaklama",
+        "viewAll": "Tümünü Gör",
+        "detailsButton": "Detaylı İncele",
+        "deluxeTwinGarden": {
+            "name": "Deluxe Twin Garden",
+            "category": "Bahçe Manzaralı",
+            "description": "Çift bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Modern mimarinin doğayla buluştuğu noktada konforun keyfini sürün."
+        },
+        "deluxeFrenchGarden": {
+            "name": "Deluxe French Garden",
+            "category": "Zerafet & Doğa",
+            "description": "Bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. İnce detaylarla döşenmiş iç mekanımızda huzuru keşfedeceksiniz."
+        },
+        "deluxeFrenchCity": {
+            "name": "Deluxe French City",
+            "category": "Şehir Panoraması",
+            "description": "Şehir manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Işıltılı şehir manzarasını konforlu süitinizden izleyin."
+        }
+    },
+    "sustainability": {
+        "subtitle": "Geleceğe Sözümüz",
+        "title": "Sürdürülebilirlik",
+        "description": "Sürdürülebilirlik yolculuğumuzda umut ve heyecanla adım attığımız bu yolda, tüm ekibimiz, iş ortaklarımız ve sevgili misafirlerimizle birlikte adımlarımızı hızlandırmak için sabırsızlanıyoruz.",
+        "cta": "Detaylı Bilgi"
+    },
+    "footer": {
+        "cta": {
+            "title": "Unutulmaz bir deneyim için yerinizi ayırtın.",
+            "button": "Bizimle Kalın"
+        },
+        "address": {
+            "title": "Adres",
+            "content": "Dede Mahallesi, Haktanır Sokak No:4\nBademlik, 26030 Odunpazarı/Eskişehir"
+        },
+        "contact": {
+            "title": "İletişim",
+            "phone": "0 222 211 03 00",
+            "email": "info@airparkhotel.com"
+        },
+        "social": {
+            "title": "Takip Edin"
+        },
+        "app": {
+            "title": "Uygulama"
+        },
+        "legal": {
+            "privacy": "Gizlilik",
+            "cookies": "Çerezler",
+            "sales": "Mesafeli Satış",
+            "disclosure": "Aydınlatma Metni",
+            "copyright": "© 2024 AIRPARKHOTEL. TÜM HAKLARI SAKLIDIR."
+        }
+    },
+    "common": {
+        "squareMeters": "m²"
+    }
+}
