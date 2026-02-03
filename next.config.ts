@@ -11,11 +11,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Cloudflare Pages compatibility
-  experimental: {
-    // Disable experimental features that aren't compatible with Cloudflare
-  },
 };
  
 const withNextIntl = createNextIntlPlugin();
 export default withNextIntl(nextConfig);
+
+// Initialize OpenNext Cloudflare for local development
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
+initOpenNextCloudflareForDev();
