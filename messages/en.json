@@ -16,6 +16,7 @@
     "rooms": {
         "title": "Rooms & Suites",
         "subtitle": "Premium Accommodation",
+        "heroDescription": "Discover our selection of carefully designed rooms and suites, each offering unique views and premium comfort for an unforgettable stay.",
         "viewAll": "View All",
         "detailsButton": "View Details",
         "bookNow": "Book Now",
@@ -62,7 +63,40 @@
         "subtitle": "Our Promise to the Future",
         "title": "Sustainability",
         "description": "On our sustainability journey, we are eager to accelerate our steps with all our team, business partners, and dear guests on this path we take with hope and excitement.",
-        "cta": "More Information"
+        "cta": "More Information",
+        "initiativesTitle": "Our Sustainability Initiatives",
+        "initiatives": {
+            "energy": {
+                "title": "Energy Efficiency",
+                "description": "We use renewable energy sources and energy-efficient systems throughout our property."
+            },
+            "water": {
+                "title": "Water Conservation",
+                "description": "Advanced water management systems help us minimize water waste and preserve this precious resource."
+            },
+            "waste": {
+                "title": "Waste Reduction",
+                "description": "Comprehensive recycling programs and composting initiatives reduce our environmental footprint."
+            },
+            "local": {
+                "title": "Local Sourcing",
+                "description": "We partner with local suppliers and farmers to support the community and reduce transportation emissions."
+            },
+            "green": {
+                "title": "Green Spaces",
+                "description": "Our gardens and green spaces provide natural habitats and improve air quality."
+            },
+            "materials": {
+                "title": "Sustainable Materials",
+                "description": "We prioritize eco-friendly and sustainable materials in our construction and operations."
+            }
+        },
+        "commitmentTitle": "Our Commitment",
+        "commitment": {
+            "paragraph1": "At AirPark Hotel, sustainability is not just a policy—it's a way of life. We are committed to reducing our environmental impact while providing exceptional hospitality experiences.",
+            "paragraph2": "We continuously evaluate and improve our practices, investing in innovative technologies and partnering with like-minded organizations to create a more sustainable future for our guests, team, and community.",
+            "paragraph3": "Together with our guests and partners, we are building a legacy of environmental stewardship that will benefit generations to come."
+        }
     },
     "footer": {
         "cta": {

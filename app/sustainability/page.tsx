@@ -1,41 +1,17 @@
 import { useTranslations } from 'next-intl';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
-import Image from 'next/image';
+
 export default function SustainabilityPage() {
   const t = useTranslations('sustainability');
 
   const initiatives = [
-    {
-      title: 'Energy Efficiency',
-      description: 'We use renewable energy sources and energy-efficient systems throughout our property.',
-      icon: '⚡',
-    },
-    {
-      title: 'Water Conservation',
-      description: 'Advanced water management systems help us minimize water waste and preserve this precious resource.',
-      icon: '💧',
-    },
-    {
-      title: 'Waste Reduction',
-      description: 'Comprehensive recycling programs and composting initiatives reduce our environmental footprint.',
-      icon: '♻️',
-    },
-    {
-      title: 'Local Sourcing',
-      description: 'We partner with local suppliers and farmers to support the community and reduce transportation emissions.',
-      icon: '🌱',
-    },
-    {
-      title: 'Green Spaces',
-      description: 'Our gardens and green spaces provide natural habitats and improve air quality.',
-      icon: '🌳',
-    },
-    {
-      title: 'Sustainable Materials',
-      description: 'We prioritize eco-friendly and sustainable materials in our construction and operations.',
-      icon: '🏗️',
-    },
+    { key: 'energy', icon: '⚡' },
+    { key: 'water', icon: '💧' },
+    { key: 'waste', icon: '♻️' },
+    { key: 'local', icon: '🌱' },
+    { key: 'green', icon: '🌳' },
+    { key: 'materials', icon: '🏗️' },
   ];
 
   return (
@@ -63,7 +39,7 @@ export default function SustainabilityPage() {
       <section className="py-10 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-display text-4xl text-brand-primary text-center mb-12">
-            Our Sustainability Initiatives
+            {t('initiativesTitle')}
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {initiatives.map((initiative, index) => (
@@ -73,10 +49,10 @@ export default function SustainabilityPage() {
               >
                 <div className="text-5xl mb-4">{initiative.icon}</div>
                 <h3 className="font-semibold text-xl text-brand-primary mb-3">
-                  {initiative.title}
+                  {t(`initiatives.${initiative.key}.title`)}
                 </h3>
                 <p className="text-brand-primary/70">
-                  {initiative.description}
+                  {t(`initiatives.${initiative.key}.description`)}
                 </p>
               </div>
             ))}
@@ -88,21 +64,17 @@ export default function SustainabilityPage() {
       <section className="py-10 bg-brand-beige/20">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-display text-4xl text-brand-primary text-center mb-8">
-            Our Commitment
+            {t('commitmentTitle')}
           </h2>
           <div className="prose prose-lg mx-auto text-brand-primary/80">
             <p className="text-center mb-6">
-              At AirPark Hotel, sustainability is not just a policy—it&apos;s a way of life. We are committed to 
-              reducing our environmental impact while providing exceptional hospitality experiences.
+              {t('commitment.paragraph1')}
             </p>
             <p className="text-center mb-6">
-              We continuously evaluate and improve our practices, investing in innovative technologies and 
-              partnering with like-minded organizations to create a more sustainable future for our guests, 
-              team, and community.
+              {t('commitment.paragraph2')}
             </p>
             <p className="text-center">
-              Together with our guests and partners, we are building a legacy of environmental stewardship 
-              that will benefit generations to come.
+              {t('commitment.paragraph3')}
             </p>
           </div>
         </div>
@@ -112,12 +84,8 @@ export default function SustainabilityPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="aspect-[4/3] bg-brand-beige rounded-lg">
-              <Image src={`/images/sustainability/initiatives.jpg`} alt={`Sustainability initiatives`} width={500} height={500} />
-              </div>
-            <div className="aspect-[4/3] bg-brand-beige rounded-lg">
-              <Image src={`/images/sustainability/commitment.jpg`} alt={`Sustainability commitment`} width={500} height={500} />
-              </div>
+            <div className="aspect-[4/3] bg-brand-beige rounded-lg"></div>
+            <div className="aspect-[4/3] bg-brand-beige rounded-lg"></div>
           </div>
         </div>
       </section>

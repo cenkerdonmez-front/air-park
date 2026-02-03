@@ -22,7 +22,7 @@ export default async function RoomsPage() {
               {t('title')}
             </h1>
             <p className="text-white/90 text-lg max-w-2xl">
-              Discover our selection of carefully designed rooms and suites, each offering unique views and premium comfort for an unforgettable stay.
+              {t('heroDescription')}
             </p>
           </div>
         </div>

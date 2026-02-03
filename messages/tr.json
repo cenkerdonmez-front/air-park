@@ -16,6 +16,7 @@
     "rooms": {
         "title": "Odalar & Süitler",
         "subtitle": "Seçkin Konaklama",
+        "heroDescription": "Özenle tasarlanmış oda ve süitlerimizi keşfedin, her biri benzersiz manzaralar ve unutulmaz bir konaklama için premium konfor sunuyor.",
         "viewAll": "Tümünü Gör",
         "detailsButton": "Detaylı İncele",
         "bookNow": "Rezervasyon Yap",
@@ -62,7 +63,40 @@
         "subtitle": "Geleceğe Sözümüz",
         "title": "Sürdürülebilirlik",
         "description": "Sürdürülebilirlik yolculuğumuzda umut ve heyecanla adım attığımız bu yolda, tüm ekibimiz, iş ortaklarımız ve sevgili misafirlerimizle birlikte adımlarımızı hızlandırmak için sabırsızlanıyoruz.",
-        "cta": "Detaylı Bilgi"
+        "cta": "Detaylı Bilgi",
+        "initiativesTitle": "Sürdürülebilirlik Girişimlerimiz",
+        "initiatives": {
+            "energy": {
+                "title": "Enerji Verimliliği",
+                "description": "Tesisimizin her yerinde yenilenebilir enerji kaynakları ve enerji verimli sistemler kullanıyoruz."
+            },
+            "water": {
+                "title": "Su Tasarrufu",
+                "description": "Gelişmiş su yönetim sistemleri, su israfını en aza indirmemize ve bu değerli kaynağı korumamıza yardımcı oluyor."
+            },
+            "waste": {
+                "title": "Atık Azaltma",
+                "description": "Kapsamlı geri dönüşüm programları ve kompostlama girişimleri çevre ayak izimizi azaltıyor."
+            },
+            "local": {
+                "title": "Yerel Kaynak Kullanımı",
+                "description": "Topluluğu desteklemek ve ulaşım emisyonlarını azaltmak için yerel tedarikçiler ve çiftçilerle ortaklık kuruyoruz."
+            },
+            "green": {
+                "title": "Yeşil Alanlar",
+                "description": "Bahçelerimiz ve yeşil alanlarımız doğal yaşam alanları sağlıyor ve hava kalitesini iyileştiriyor."
+            },
+            "materials": {
+                "title": "Sürdürülebilir Malzemeler",
+                "description": "İnşaat ve operasyonlarımızda çevre dostu ve sürdürülebilir malzemelere öncelik veriyoruz."
+            }
+        },
+        "commitmentTitle": "Taahhüdümüz",
+        "commitment": {
+            "paragraph1": "AirPark Hotel'de sürdürülebilirlik sadece bir politika değil, bir yaşam tarzıdır. Olağanüstü misafirperverlik deneyimleri sunarken çevresel etkimizi azaltmaya kararlıyız.",
+            "paragraph2": "Misafirlerimiz, ekibimiz ve topluluğumuz için daha sürdürülebilir bir gelecek yaratmak için yenilikçi teknolojilere yatırım yapıyor ve benzer düşünen kuruluşlarla ortaklık kurarak uygulamalarımızı sürekli olarak değerlendiriyor ve geliştiriyoruz.",
+            "paragraph3": "Misafirlerimiz ve ortaklarımızla birlikte, gelecek nesillere fayda sağlayacak bir çevre yönetimi mirası inşa ediyoruz."
+        }
     },
     "footer": {
         "cta": {
