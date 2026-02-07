@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function SustainabilitySection() {
   const t = useTranslations('sustainability');
@@ -27,8 +28,10 @@ export function SustainabilitySection() {
           <p className="text-gray-600 text-sm leading-relaxed mb-8">
             {t('description')}
           </p>
-          <Button className="bg-[#015C54] text-white hover:bg-[#015C54]/90 px-8 py-3 text-[11px] font-bold uppercase tracking-widest rounded-sm">
+          <Button asChild className="bg-[#015C54] text-white hover:bg-[#015C54]/90 cursor-pointer px-8 py-3 text-[11px] font-bold uppercase tracking-widest rounded-sm">
+            <Link href="/sustainability">
             {t('cta')}
+            </Link>
           </Button>
         </div>
       </div>

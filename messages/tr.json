@@ -2,9 +2,8 @@
     "nav": {
         "brand": "AIRPARK",
         "rooms": "Odalar",
-        "restaurant": "Restaurant & Bar",
+        "gallery": "Medya Galerisi",
         "spa": "Spa & Sağlık",
-        "wedding": "Düğün",
         "meeting": "Toplantı & Etkinlik",
         "sustainability": "Sürdürülebilirlik",
         "reservation": "Rezervasyon"
@@ -98,6 +97,29 @@
             "paragraph3": "Misafirlerimiz ve ortaklarımızla birlikte, gelecek nesillere fayda sağlayacak bir çevre yönetimi mirası inşa ediyoruz."
         }
     },
+    "partners": {
+        "title": "İş Ortaklarımız",
+        "cards": {
+            "shm": {
+                "title": "SİVRİHİSAR HAVACILIK MERKEZİ",
+                "subtitle": "Gökyüzü Sevdalılarının Adresi",
+                "linkLabel": "İNCELE",
+                "url": "#"
+            },
+            "mso": {
+                "title": "MSO",
+                "subtitle": "",
+                "linkLabel": "İNCELE",
+                "url": "#"
+            },
+            "lokantaSenan": {
+                "title": "Lokanta Senan",
+                "subtitle": "",
+                "linkLabel": "İNCELE",
+                "url": "#"
+            }
+        }
+    },
     "footer": {
         "cta": {
             "title": "Unutulmaz bir deneyim için yerinizi ayırtın.",
@@ -130,18 +152,13 @@
         "squareMeters": "m²",
         "images": "Görsel"
     },
-    "restaurant": {
-        "title": "Restaurant & Bar",
-        "subtitle": "Lezzet Mükemmelliği",
-        "description": "Restoranımızda eşsiz bir lezzet yolculuğu deneyimleyin. Şeflerimiz, taze, yerel malzemelerle uluslararası tatları birleştirerek özel yemekler hazırlıyor.",
-        "openingHours": "Açılış Saatleri",
-        "breakfast": "Kahvaltı: 07:00 - 10:30",
-        "lunch": "Öğle Yemeği: 12:00 - 15:00",
-        "dinner": "Akşam Yemeği: 18:00 - 22:30",
-        "bar": "Bar: 11:00 - 01:00",
-        "menuTitle": "Menümüz",
-        "menuDescription": "Geleneksel Türk mutfağından uluslararası favorilere kadar çeşitli menümüz her damak zevkine hitap ediyor.",
-        "reservationCta": "Rezervasyon Yap"
+    "gallery": {
+        "title": "Medya Galerisi",
+        "subtitle": "AirPark Hotel'i Keşfedin",
+        "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün.",
+        "option1": "Seçenek 1 — Klasik Izgara",
+        "option2": "Seçenek 2 — Masonry",
+        "option3": "Seçenek 3 — Öne Çıkan Hero"
     },
     "spa": {
         "title": "Spa & Sağlık",
@@ -157,20 +174,6 @@
         "openingHours": "Açılış Saatleri",
         "hours": "Her Gün: 08:00 - 22:00",
         "bookingCta": "Randevu Al"
-    },
-    "wedding": {
-        "title": "Düğün",
-        "subtitle": "Hayalinizdeki Düğün",
-        "description": "AirPark Hotel'de özel gününüzü unutulmaz kılın. Zarif mekanlarımız ve özel ekibimiz düğününüzün hayal ettiğiniz her şey ve daha fazlası olmasını sağlayacak.",
-        "venues": "Düğün Mekanları",
-        "venueDescription": "Güzel iç ve dış mekanlarımızdan birini seçin, her biri kutlamanız için benzersiz bir atmosfer sunuyor.",
-        "services": "Düğün Hizmetleri",
-        "planning": "Profesyonel Düğün Planlama",
-        "catering": "Özelleştirilmiş Yemek Menüleri",
-        "decoration": "Zarif Dekorasyon",
-        "accommodation": "Misafir Konaklaması",
-        "photography": "Fotoğraf Hizmetleri",
-        "contactCta": "Düğün Ekibimizle İletişime Geçin"
     },
     "meeting": {
         "title": "Toplantı & Etkinlik",

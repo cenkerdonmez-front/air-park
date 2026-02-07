@@ -2,9 +2,8 @@
     "nav": {
         "brand": "AIRPARK",
         "rooms": "Rooms",
-        "restaurant": "Restaurant & Bar",
+        "gallery": "Media Gallery",
         "spa": "Spa & Wellness",
-        "wedding": "Wedding",
         "meeting": "Meeting & Events",
         "sustainability": "Sustainability",
         "reservation": "Reservation"
@@ -98,6 +97,29 @@
             "paragraph3": "Together with our guests and partners, we are building a legacy of environmental stewardship that will benefit generations to come."
         }
     },
+    "partners": {
+        "title": "Our Partners",
+        "cards": {
+            "shm": {
+                "title": "SİVRİHİSAR AVIATION CENTER",
+                "subtitle": "Address for Sky Enthusiasts",
+                "linkLabel": "Explore",
+                "url": "#"
+            },
+            "mso": {
+                "title": "MSO",
+                "subtitle": "",
+                "linkLabel": "Explore",
+                "url": "#"
+            },
+            "lokantaSenan": {
+                "title": "Lokanta Senan",
+                "subtitle": "",
+                "linkLabel": "Explore",
+                "url": "#"
+            }
+        }
+    },
     "footer": {
         "cta": {
             "title": "Book your place for an unforgettable experience.",
@@ -130,18 +152,13 @@
         "squareMeters": "m²",
         "images": "Images"
     },
-    "restaurant": {
-        "title": "Restaurant & Bar",
-        "subtitle": "Culinary Excellence",
-        "description": "Experience a unique culinary journey at our restaurant. Our chefs prepare exquisite dishes using fresh, local ingredients combined with international flavors.",
-        "openingHours": "Opening Hours",
-        "breakfast": "Breakfast: 07:00 - 10:30",
-        "lunch": "Lunch: 12:00 - 15:00",
-        "dinner": "Dinner: 18:00 - 22:30",
-        "bar": "Bar: 11:00 - 01:00",
-        "menuTitle": "Our Menu",
-        "menuDescription": "From traditional Turkish cuisine to international favorites, our diverse menu caters to all tastes.",
-        "reservationCta": "Make a Reservation"
+    "gallery": {
+        "title": "Media Gallery",
+        "subtitle": "Discover AirPark Hotel",
+        "description": "Explore our hotel through photos and videos. Get a glimpse of our rooms, facilities, and the experiences that await you.",
+        "option1": "Option 1 — Classic Grid",
+        "option2": "Option 2 — Masonry",
+        "option3": "Option 3 — Featured Hero"
     },
     "spa": {
         "title": "Spa & Wellness",
@@ -157,20 +174,6 @@
         "openingHours": "Opening Hours",
         "hours": "Daily: 08:00 - 22:00",
         "bookingCta": "Book an Appointment"
-    },
-    "wedding": {
-        "title": "Wedding",
-        "subtitle": "Your Dream Wedding",
-        "description": "Make your special day unforgettable at AirPark Hotel. Our elegant venues and dedicated team will ensure your wedding is everything you've dreamed of and more.",
-        "venues": "Wedding Venues",
-        "venueDescription": "Choose from our beautiful indoor and outdoor venues, each offering a unique ambiance for your celebration.",
-        "services": "Wedding Services",
-        "planning": "Professional Wedding Planning",
-        "catering": "Customized Catering Menus",
-        "decoration": "Elegant Decoration",
-        "accommodation": "Guest Accommodation",
-        "photography": "Photography Services",
-        "contactCta": "Contact Our Wedding Team"
     },
     "meeting": {
         "title": "Meeting & Events",

@@ -37,14 +37,11 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
               <Link className="hover:text-brand-primary transition-colors" href="/rooms">
                 {t('nav.rooms')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="/restaurant">
-                {t('nav.restaurant')}
-              </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="/wedding">
-                {t('nav.wedding')}
-              </Link>
               <Link className="hover:text-brand-primary transition-colors" href="/meeting">
                 {t('nav.meeting')}
+              </Link>
+              <Link className="hover:text-brand-primary transition-colors" href="/gallery">
+                {t('nav.gallery')}
               </Link>
               <Link className="hover:text-brand-primary transition-colors" href="/sustainability">
                 {t('nav.sustainability')}
@@ -134,24 +131,17 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="/restaurant"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('nav.restaurant')}
-            </Link>
-            <Link 
-              className="hover:text-brand-primary transition-colors py-2" 
-              href="/wedding"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('nav.wedding')}
-            </Link>
-            <Link 
-              className="hover:text-brand-primary transition-colors py-2" 
               href="/meeting"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.meeting')}
+            </Link>
+            <Link 
+              className="hover:text-brand-primary transition-colors py-2" 
+              href="/gallery"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t('nav.gallery')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
