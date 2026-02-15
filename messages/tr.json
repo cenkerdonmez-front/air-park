@@ -2,10 +2,11 @@
     "nav": {
         "brand": "AIRPARK",
         "rooms": "Odalar",
-        "gallery": "Medya Galerisi",
+        "gallery": "Galeri",
         "spa": "Spa & Sağlık",
         "meeting": "Toplantı & Etkinlik",
-        "contactTransport": "İletişim ve Ulaşım",
+        "contact": "İletişim",
+        "arrival": "Ulaşım",
         "reservation": "Rezervasyon"
     },
     "hero": {
@@ -44,22 +45,22 @@
             "parking": "Ücretsiz Otopark"
         },
         "deluxeTwinGarden": {
-            "name": "Standart Oda",
-            "beds": "1 Çift Kişilik Yatak",
-            "description": "Standart odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
-            "longDescription": "Standart odalarımız 35 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür."
-        },
-        "deluxeFrenchGarden": {
             "name": "Konforlu Çift Kişilik Oda",
             "beds": "1 Çift Kişilik Yatak",
-            "description": "Çift kişilik odamızda huzur ve konforu keşfedin. İnce detaylarla döşenmiş iç mekanımız sizi bekliyor.",
-            "longDescription": "Konforlu çift kişilik odamız 35 metrekare rafine yaşam alanı sunar. Çift kişilik yatak ve sofistike iç tasarım ile rafine bir konfor atmosferi yaratıyor. Çiftler için ideal."
+            "description": "Konforlu çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
+            "longDescription": "Konforlu çift kişilik odamız 35 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
+        },
+        "deluxeFrenchGarden": {
+            "name": "3 Kişilik Oda",
+            "beds": "1 Çift Kişilik Yatak",
+            "description": "Üç kişiye kadar misafir ağırlayan odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
+            "longDescription": "3 kişilik odamız 35 metrekare rafine yaşam alanı sunar. Çift kişilik yatak ve sofistike iç tasarım ile rahat bir konaklama imkânı. Üç misafire kadar ağırlayabilir."
         },
         "deluxeFrenchCity": {
-            "name": "3 Kişilik Oda",
+            "name": "Suit Oda",
             "beds": "1 Çift + 1 Tek Yatak",
-            "description": "Üç kişiye kadar misafir ağırlayan odamızda konforlu bir konaklama deneyimi yaşayın.",
-            "longDescription": "3 kişilik odalarımız 35 metrekare modern alan sunar. Çift ve tek yatak seçeneği ile aile veya arkadaş grubu için idealdir. Tüm konfor olanaklarıyla unutulmaz bir konaklama."
+            "description": "Suit odamızda geniş alan ve lüks konforu bir arada yaşayın. Özel tasarım detayları sizi bekliyor.",
+            "longDescription": "Suit odamız 35 metrekare modern alan sunar. Çift ve tek yatak seçeneği ile geniş yaşam alanı, aile veya arkadaş grubu için unutulmaz bir konaklama deneyimi. Tüm konfor olanaklarıyla hizmetinizde."
         }
     },
     "sustainability": {
@@ -158,7 +159,7 @@
         "images": "Görsel"
     },
     "gallery": {
-        "title": "Medya Galerisi",
+        "title": "Galeri",
         "subtitle": "AirPark Hotel'i Keşfedin",
         "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün."
     },
@@ -247,8 +248,15 @@
         "runwayLength": "Pist Uzunluğu",
         "runwayLengthValue": "1810 x 32 m (Asfalt)",
         "elevation": "Rakım",
-        "elevationValue": "2790 Feet",
+        "elevationValue": "2.790 Feet",
+        "runwayLengthWithSurface": "1810 m x 32 m",
+        "runwaySurface": "(Asfalt)",
         "operatingHours": "Çalışma Günleri ve Saatleri",
-        "operatingHoursValue": "Salı – Pazar\n09:00 – Gün batımı"
+        "operatingHoursValue": "Salı – Pazar\n09:00 – Gün batımı",
+        "planeNotice": "Havadan gelen trafiklerin, S.H.M. web sitesinde yer alan yaklaşma prosedürlerini incelemeleri ve Display Director Aysan Keskin ile temas kurarak SLOT alınması gerekmektedir.",
+        "planeDisplayDirector": "SHG Display Director mail adresi:",
+        "shmWebsite": "S.H.M. WEB SİTESİ",
+        "shmCoordN": "N 39°17'59.29''",
+        "shmCoordE": "E 31°29'38.50''"
     }
 }

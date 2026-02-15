@@ -2,10 +2,11 @@
     "nav": {
         "brand": "AIRPARK",
         "rooms": "Rooms",
-        "gallery": "Media Gallery",
+        "gallery": "Gallery",
         "spa": "Spa & Wellness",
         "meeting": "Meeting & Events",
-        "contactTransport": "Contact & Transport",
+        "contact": "Contact",
+        "arrival": "Arrival",
         "reservation": "Reservation"
     },
     "hero": {
@@ -44,22 +45,22 @@
             "parking": "Free Parking"
         },
         "deluxeTwinGarden": {
-            "name": "Standard Room",
-            "beds": "1 Double Bed",
-            "description": "Enjoy a comfortable stay in our standard room. Modern design and comfort combined.",
-            "longDescription": "Our standard rooms offer 35 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay."
-        },
-        "deluxeFrenchGarden": {
             "name": "Comfortable Double Room",
             "beds": "1 Double Bed",
-            "description": "Discover comfort and serenity in our double room. Our interior is adorned with fine details.",
-            "longDescription": "Our comfortable double room offers 35 square meters of refined living space. With a double bed and sophisticated interior design it creates an atmosphere of refined comfort. Ideal for couples."
+            "description": "Enjoy a comfortable stay in our double room. Modern design and comfort combined.",
+            "longDescription": "Our comfortable double room offers 35 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay. Ideal for couples."
+        },
+        "deluxeFrenchGarden": {
+            "name": "Triple Room",
+            "beds": "1 Double Bed",
+            "description": "Discover comfort in our triple room, accommodating up to three guests. Ideal for families or friends.",
+            "longDescription": "Our triple room offers 35 square meters of refined living space. With a double bed and sophisticated interior design it provides a comfortable stay for up to three guests."
         },
         "deluxeFrenchCity": {
-            "name": "Triple Room",
+            "name": "Suite Room",
             "beds": "1 Double + 1 Single Bed",
-            "description": "Enjoy a comfortable stay in our triple room, accommodating up to three guests.",
-            "longDescription": "Our triple rooms offer 35 square meters of contemporary space. With double and single bed options they are ideal for families or groups of friends. A memorable stay with all the comforts."
+            "description": "Experience spacious luxury in our suite. Thoughtful design details await you.",
+            "longDescription": "Our suite offers 35 square meters of contemporary space. With double and single bed options and a generous living area, it is ideal for families or groups of friends. A memorable stay with all the comforts."
         }
     },
     "sustainability": {
@@ -158,7 +159,7 @@
         "images": "Images"
     },
     "gallery": {
-        "title": "Media Gallery",
+        "title": "Gallery",
         "subtitle": "Discover AirPark Hotel",
         "description": "Explore our hotel through photos and videos. Get a glimpse of our rooms, facilities, and the experiences that await you."
     },
@@ -247,8 +248,15 @@
         "runwayLength": "Runway Length",
         "runwayLengthValue": "1810 x 32 m (Asphalt)",
         "elevation": "Elevation",
-        "elevationValue": "2790 Feet",
+        "elevationValue": "2,790 Feet",
+        "runwayLengthWithSurface": "1810 m x 32 m",
+        "runwaySurface": "(Asphalt)",
         "operatingHours": "Operating Days and Hours",
-        "operatingHoursValue": "Tuesday – Sunday\n09:00 – Sunset"
+        "operatingHoursValue": "Tuesday – Sunday\n09:00 – Sunset",
+        "planeNotice": "Air traffic must review the approach procedures on the S.H.M. website and obtain a SLOT by contacting Display Director Aysan Keskin.",
+        "planeDisplayDirector": "SHG Display Director email:",
+        "shmWebsite": "S.H.M. WEBSITE",
+        "shmCoordN": "N 39°17'59.29''",
+        "shmCoordE": "E 31°29'38.50''"
     }
 }

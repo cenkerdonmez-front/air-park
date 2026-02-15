@@ -1,8 +1,7 @@
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
-import { MapPin, Plane } from 'lucide-react';
+import { MapPin, PlaneLanding } from 'lucide-react';
 
 const GOOGLE_MAPS_EMBED_URL =
   'https://www.google.com/maps?q=Sivrihisar+Havac%C4%B1l%C4%B1k+Merkezi,+Ye%C5%9Filk%C3%B6y,+26600+Sivrihisar/Eski%C5%9Fehir&output=embed';
@@ -34,40 +33,80 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Air / By plane - same style as Google Maps section */}
-      <section className="py-12 px-6">
+      {/* Havadan Ulaşım */}
+      <section id="transport" className="mb-24 px-6 scroll-mt-24">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-display text-2xl text-brand-primary mb-4 flex items-center gap-2">
-            <Plane className="w-6 h-6" />
-            {t('transportByPlane')}
+          <h2 className="text-3xl font-black text-brand-primary mb-8 flex items-center gap-4">
+            <span className="w-1.5 h-8 bg-brand-primary rounded-full" />
+            {t('planeSectionTitle')} Ulaşım
           </h2>
-          <p className="text-brand-primary/80 mb-6">
-            {t('transportByPlaneDescription')}
-          </p>
-          <div className="rounded-2xl overflow-hidden border border-brand-primary/10 shadow-lg bg-brand-beige/20">
-            <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative aspect-[4/3] min-h-[240px] bg-brand-beige/30">
-                <Image
-                  src="/harita_shm_tr.jpg.webp"
-                  alt={t('planeSectionTitle')}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              <div className="p-6 md:p-8 flex flex-col justify-center">
-                <h4 className="font-display text-lg font-semibold text-brand-primary tracking-wide mb-4">
-                  {t('planeSectionTitle')}
-                </h4>
-                <div className="space-y-2 text-sm text-brand-primary/90">
-                  <p><span className="font-semibold">{t('shmCoordinates')}</span><br />{t('shmCoordinatesValue')}</p>
-                  <p><span className="font-semibold">{t('tower')}</span><br />{t('towerValue')}</p>
-                  <p><span className="font-semibold">{t('runwayHeadings')}</span><br />{t('runwayHeadingsValue')}</p>
-                  <p><span className="font-semibold">{t('runwayLength')}</span><br />{t('runwayLengthValue')}</p>
-                  <p><span className="font-semibold">{t('elevation')}</span><br />{t('elevationValue')}</p>
-                  <p><span className="font-semibold">{t('operatingHours')}</span><br /><span className="whitespace-pre-line">{t('operatingHoursValue')}</span></p>
+
+          <div className="bg-brand-primary rounded-3xl p-8 md:p-12 shadow-2xl border border-white/10 relative overflow-hidden group">
+            <div className="absolute top-0 right-0 p-8 opacity-5 pointer-events-none group-hover:opacity-10 transition-opacity duration-700">
+              <PlaneLanding className="w-40 h-40 text-white" />
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+              <div className="space-y-8">
+                <div>
+                  <h4 className="text-[10px] font-black text-white/60 tracking-[0.3em] uppercase mb-2">
+                    {t('shmCoordinates')}
+                  </h4>
+                  <p className="text-2xl font-black text-white font-mono">{t('shmCoordN')}</p>
+                  <p className="text-2xl font-black text-white font-mono">{t('shmCoordE')}</p>
+                </div>
+                <div>
+                  <h4 className="text-[10px] font-black text-white/60 tracking-[0.3em] uppercase mb-2">
+                    {t('tower')}
+                  </h4>
+                  <p className="text-3xl font-black text-brand-beige">{t('towerValue')}</p>
                 </div>
               </div>
+              <div className="space-y-8">
+                <div>
+                  <h4 className="text-[10px] font-black text-white/60 tracking-[0.3em] uppercase mb-2">
+                    {t('elevation')}
+                  </h4>
+                  <p className="text-2xl font-black text-white">{t('elevationValue')}</p>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <h4 className="text-[10px] font-black text-white/60 tracking-[0.3em] uppercase mb-2">
+                      {t('runwayHeadings')}
+                    </h4>
+                    <p className="text-2xl font-black text-white">{t('runwayHeadingsValue')}</p>
+                  </div>
+                  <div>
+                    <h4 className="text-[10px] font-black text-white/60 tracking-[0.3em] uppercase mb-2">
+                      {t('runwayLength')}
+                    </h4>
+                    <p className="text-xl font-black text-white leading-tight">
+                      {t('runwayLengthWithSurface')}
+                      <span className="text-xs text-brand-beige block uppercase mt-0.5">{t('runwaySurface')}</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-12 flex flex-col items-center border-t border-white/10 pt-10 relative z-10">
+              <p className="text-white text-center text-sm md:text-base font-medium leading-relaxed max-w-2xl mb-4">
+                {t('planeNotice')}
+              </p>
+              <p className="text-white/60 text-center text-sm md:text-base font-medium mb-8">
+                {t('planeDisplayDirector')}{' '}
+                <a href="mailto:aysan@mach.aero" className="text-brand-beige font-bold hover:underline">
+                  aysan@mach.aero
+                </a>
+              </p>
+              <a
+                href="https://shm.aero/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-brand-primary font-black py-4 px-10 rounded-xl hover:opacity-90 transition-all hover:scale-105 active:scale-95 shadow-xl text-center uppercase tracking-widest text-sm"
+              >
+                {t('shmWebsite')}
+              </a>
             </div>
           </div>
         </div>
@@ -109,7 +148,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact info at bottom of page */}
-      <section className="py-12 px-6 border-t border-brand-primary/10">
+      <section id="contact" className="py-12 px-6 border-t border-brand-primary/10 scroll-mt-24">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-display text-xl text-brand-primary mb-4">
             {tFooter('contact.title')}
