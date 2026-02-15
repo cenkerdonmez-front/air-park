@@ -1,13 +1,13 @@
 'use client';
 
 import { notFound } from 'next/navigation';
-import { useState, use } from 'react';
+import { useState, use, useEffect } from 'react';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, ChevronLeft, ChevronRight, Users, Bed, Maximize2, Bath, Wifi, Wind, Tv, Coffee, Shield, Sparkles } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, Users, Bed, Maximize2, Bath, Wifi, Wind, Tv, Coffee, Shield, Sparkles, UtensilsCrossed, Car, X } from 'lucide-react';
 import { getRoomBySlug } from '@/lib/roomsData';
 import { useTranslations } from 'next-intl';
 
@@ -20,9 +20,21 @@ interface RoomPageProps {
 export default function RoomPage({ params }: RoomPageProps) {
   const t = useTranslations('rooms');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const { slug } = use(params);
   const room = getRoomBySlug(slug);
+
+  useEffect(() => {
+    if (!isModalOpen) return;
+    const onEscape = (e: KeyboardEvent) => e.key === 'Escape' && setIsModalOpen(false);
+    document.addEventListener('keydown', onEscape);
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', onEscape);
+      document.body.style.overflow = '';
+    };
+  }, [isModalOpen]);
 
   if (!room) {
     return notFound();
@@ -34,6 +46,11 @@ export default function RoomPage({ params }: RoomPageProps) {
 
   const prevImage = () => {
     setCurrentImageIndex((prev) => (prev - 1 + room.images.length) % room.images.length);
+  };
+
+  const openModal = (index: number) => {
+    setCurrentImageIndex(index);
+    setIsModalOpen(true);
   };
 
   return (
@@ -59,9 +76,6 @@ export default function RoomPage({ params }: RoomPageProps) {
                 <h1 className="text-5xl sm:text-6xl font-serif text-stone-900 mb-2 leading-tight">
                   {t(`${room.key}.name`)}
                 </h1>
-                <h2 className="text-2xl sm:text-3xl italic text-stone-600 font-serif">
-                  {t(`${room.key}.category`)}
-                </h2>
               </div>
 
               {/* Description Box */}
@@ -81,7 +95,7 @@ export default function RoomPage({ params }: RoomPageProps) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 pt-4">
                 <div className="flex items-center space-x-3 group cursor-default">
                   <Bed className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{room.beds}</span>
+                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t(`${room.key}.beds`)}</span>
                 </div>
                 <div className="flex items-center space-x-3 group cursor-default">
                   <Bath className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
@@ -127,6 +141,14 @@ export default function RoomPage({ params }: RoomPageProps) {
                   <Shield className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
                   <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.safe')}</span>
                 </div>
+                <div className="flex items-center space-x-3 group cursor-default">
+                  <UtensilsCrossed className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
+                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.breakfast')}</span>
+                </div>
+                <div className="flex items-center space-x-3 group cursor-default">
+                  <Car className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
+                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.parking')}</span>
+                </div>
               </div>
 
               {/* Book Now Button */}
@@ -141,8 +163,15 @@ export default function RoomPage({ params }: RoomPageProps) {
 
             {/* Right Column - Image Gallery (7/12) */}
             <div className="w-full lg:w-7/12 relative group">
-              {/* Main Image Viewport */}
-              <div className="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl relative bg-stone-200">
+              {/* Main Image Viewport - click to open modal */}
+              <div
+                className="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl relative bg-stone-200 cursor-zoom-in"
+                onClick={() => openModal(currentImageIndex)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => e.key === 'Enter' && openModal(currentImageIndex)}
+                aria-label={t('openGallery')}
+              >
                 {room.images.map((img, idx) => (
                   <Image
                     key={idx}
@@ -156,23 +185,29 @@ export default function RoomPage({ params }: RoomPageProps) {
                   />
                 ))}
 
-                {/* Size Badge */}
-                <div className="absolute top-8 left-0 bg-brand-primary text-white px-6 py-4 rounded-r-xl shadow-lg font-bold text-xl flex flex-col items-center hover:bg-brand-primary/90 transition-colors">
+                {/* Size Badge - stop propagation so clicking doesn't open modal */}
+                <div
+                  className="absolute top-8 left-0 bg-brand-primary text-white px-6 py-4 rounded-r-xl shadow-lg font-bold text-xl flex flex-col items-center hover:bg-brand-primary/90 transition-colors cursor-default"
+                  onClick={(e) => e.stopPropagation()}
+                  onKeyDown={(e) => e.stopPropagation()}
+                >
                   <span>{room.size}</span>
                   <span className="text-[10px] uppercase tracking-widest opacity-80">m2</span>
                 </div>
 
-                {/* Carousel Controls */}
+                {/* Carousel Controls - stop propagation so clicking them doesn't open modal */}
                 <div className="absolute inset-x-4 top-1/2 -translate-y-1/2 flex justify-between opacity-0 group-hover:opacity-100 transition-opacity">
                   <button 
-                    onClick={prevImage}
+                    type="button"
+                    onClick={(e) => { e.stopPropagation(); prevImage(); }}
                     className="bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-3 rounded-full transition-all hover:scale-110 active:scale-90"
                     aria-label="Previous image"
                   >
                     <ChevronLeft className="w-6 h-6" />
                   </button>
                   <button 
-                    onClick={nextImage}
+                    type="button"
+                    onClick={(e) => { e.stopPropagation(); nextImage(); }}
                     className="bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-3 rounded-full transition-all hover:scale-110 active:scale-90"
                     aria-label="Next image"
                   >
@@ -180,26 +215,28 @@ export default function RoomPage({ params }: RoomPageProps) {
                   </button>
                 </div>
 
-                {/* Dots Indicator */}
+                {/* Dots Indicator - stop propagation so clicking doesn't open modal */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-2">
                   {room.images.map((_, idx) => (
-                    <div 
+                    <button
+                      type="button"
                       key={idx}
-                      onClick={() => setCurrentImageIndex(idx)}
+                      onClick={(e) => { e.stopPropagation(); setCurrentImageIndex(idx); }}
                       className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
                         idx === currentImageIndex ? 'w-8 bg-white' : 'w-2 bg-white/40'
                       }`}
+                      aria-label={`Image ${idx + 1}`}
                     />
                   ))}
                 </div>
               </div>
 
-              {/* Thumbnails */}
+              {/* Thumbnails - click to select and open modal */}
               <div className="grid grid-cols-3 gap-4 mt-6">
                 {room.images.map((img, idx) => (
                   <div 
                     key={idx}
-                    onClick={() => setCurrentImageIndex(idx)}
+                    onClick={() => { setCurrentImageIndex(idx); openModal(idx); }}
                     className={`aspect-square rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 border-2 ${
                       idx === currentImageIndex 
                         ? 'border-brand-primary ring-4 ring-brand-primary/20 scale-95' 
@@ -230,6 +267,73 @@ export default function RoomPage({ params }: RoomPageProps) {
       </main>
 
       <Footer />
+
+      {/* Photo modal - fullscreen carousel */}
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 p-4"
+          onClick={() => setIsModalOpen(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-label={t('galleryModal')}
+        >
+          {/* Close - fixed to top-right of viewport */}
+          <button
+            type="button"
+            onClick={() => setIsModalOpen(false)}
+            className="absolute top-4 right-4 z-20 p-2 rounded-full text-white/90 hover:text-white hover:bg-white/10 transition-colors"
+            aria-label={t('closeModal')}
+          >
+            <X className="w-8 h-8" />
+          </button>
+
+          {/* Image + carousel - centered */}
+          <div
+            className="relative w-full max-w-6xl max-h-[90vh] flex items-center justify-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {room.images.map((img, idx) => (
+              <div
+                key={idx}
+                className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ${
+                  idx === currentImageIndex ? 'opacity-100 z-0' : 'opacity-0 z-0 pointer-events-none'
+                }`}
+              >
+                <Image
+                  src={img}
+                  alt={`${t(`${room.key}.name`)} ${idx + 1}`}
+                  width={1200}
+                  height={900}
+                  className="max-w-full max-h-[85vh] w-auto h-auto object-contain rounded-lg"
+                  onClick={(e) => e.stopPropagation()}
+                />
+              </div>
+            ))}
+
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); prevImage(); }}
+              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+              aria-label="Previous image"
+            >
+              <ChevronLeft className="w-8 h-8" />
+            </button>
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); nextImage(); }}
+              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+              aria-label="Next image"
+            >
+              <ChevronRight className="w-8 h-8" />
+            </button>
+          </div>
+
+          {/* Counter - fixed to bottom center of viewport */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 px-4 py-2 rounded-full bg-black/50 text-white text-sm font-medium pointer-events-none">
+            {currentImageIndex + 1} / {room.images.length}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

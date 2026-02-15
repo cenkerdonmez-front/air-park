@@ -8,13 +8,12 @@ import { ArrowRight } from 'lucide-react';
 interface RoomCardProps {
   slug: string;
   name: string;
-  category: string;
   description: string;
   image: string;
   size: number;
 }
 
-export function RoomCard({ slug, name, category, description, image, size }: RoomCardProps) {
+export function RoomCard({ slug, name, description, image, size }: RoomCardProps) {
   const t = useTranslations();
 
   return (
@@ -31,9 +30,6 @@ export function RoomCard({ slug, name, category, description, image, size }: Roo
         </div>
       </div>
       <div className="p-5 flex-grow flex flex-col">
-        <span className="text-brand-primary/50 font-bold tracking-wider uppercase text-[9px] mb-1">
-          {category}
-        </span>
         <h3 className="text-lg font-bold text-brand-primary mb-2">{name}</h3>
         <p className="text-gray-600 text-sm leading-snug mb-4 line-clamp-3">
           {description}

@@ -43,8 +43,8 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
               <Link className="hover:text-brand-primary transition-colors" href="/gallery">
                 {t('nav.gallery')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="/sustainability">
-                {t('nav.sustainability')}
+              <Link className="hover:text-brand-primary transition-colors" href="/contact">
+                {t('nav.contactTransport')}
               </Link>
             </div>
           </div>
@@ -145,10 +145,10 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="/sustainability"
+              href="/contact"
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('nav.sustainability')}
+              {t('nav.contactTransport')}
             </Link>
           </div>
 

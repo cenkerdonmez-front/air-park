@@ -29,7 +29,6 @@ export function RoomsSection() {
             key={room.key}
             slug={room.slug}
             name={t(`${room.key}.name`)}
-            category={t(`${room.key}.category`)}
             description={t(`${room.key}.description`)}
             image={room.images[0]}
             size={room.size}

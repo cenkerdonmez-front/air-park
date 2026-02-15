@@ -5,7 +5,7 @@
         "gallery": "Medya Galerisi",
         "spa": "Spa & Sağlık",
         "meeting": "Toplantı & Etkinlik",
-        "sustainability": "Sürdürülebilirlik",
+        "contactTransport": "İletişim ve Ulaşım",
         "reservation": "Rezervasyon"
     },
     "hero": {
@@ -15,7 +15,7 @@
     "rooms": {
         "title": "Odalar & Süitler",
         "subtitle": "Seçkin Konaklama",
-        "heroDescription": "Özenle tasarlanmış oda ve süitlerimizi keşfedin, her biri benzersiz manzaralar ve unutulmaz bir konaklama için premium konfor sunuyor.",
+        "heroDescription": "Özenle tasarlanmış oda ve süitlerimizi keşfedin, her biri unutulmaz bir konaklama için premium konfor sunuyor.",
         "viewAll": "Tümünü Gör",
         "detailsButton": "Detaylı İncele",
         "bookNow": "Rezervasyon Yap",
@@ -26,9 +26,11 @@
         "adults": "Yetişkin",
         "children": "Çocuk",
         "bedType": "Yatak Tipi",
-        "viewType": "Manzara",
         "amenities": "Olanaklar",
         "moreImages": "Görsel",
+        "openGallery": "Görselleri büyüt",
+        "galleryModal": "Oda görseli galerisi",
+        "closeModal": "Kapat",
         "features": {
             "wifi": "Ücretsiz Wi-Fi",
             "minibar": "Minibar",
@@ -37,25 +39,27 @@
             "tv": "LCD TV",
             "hairdryer": "Saç Kurutma Makinesi",
             "bathrobe": "Bornoz & Terlik",
-            "slippers": "Terlik"
+            "slippers": "Terlik",
+            "breakfast": "Açık Büfe Kahvaltı",
+            "parking": "Ücretsiz Otopark"
         },
         "deluxeTwinGarden": {
-            "name": "Deluxe Twin Garden",
-            "category": "Bahçe Manzaralı",
-            "description": "Çift bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Modern mimarinin doğayla buluştuğu noktada konforun keyfini sürün.",
-            "longDescription": "Deluxe Twin Garden odalarımız, konfor ve doğanın mükemmel bir karışımını sunuyor. 35 metrekare düşünülmüş tasarım alanı ile bu odalar, iki rahat tek kişilik yatak, modern bir banyo ve yemyeşil bahçelerimize bakan özel bir balkona sahiptir. Her detay, konaklamanızın hem rahatlatıcı hem de unutulmaz olması için özenle düşünülmüştür."
+            "name": "Standart Oda",
+            "beds": "1 Çift Kişilik Yatak",
+            "description": "Standart odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
+            "longDescription": "Standart odalarımız 35 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür."
         },
         "deluxeFrenchGarden": {
-            "name": "Deluxe French Garden",
-            "category": "Zerafet & Doğa",
-            "description": "Bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. İnce detaylarla döşenmiş iç mekanımızda huzuru keşfedeceksiniz.",
-            "longDescription": "Deluxe French Garden odası, zarafeti doğal güzellikle birleştiriyor. Lüks bir Fransız yatağı, 35 metrekare rafine yaşam alanı ve panoramik bahçe manzarası ile bu oda, romantik bir kaçamak arayan çiftler için mükemmeldir. İnce detaylarla zenginleştirilmiş sofistike iç tasarım, rafine konfor atmosferi yaratıyor."
+            "name": "Konforlu Çift Kişilik Oda",
+            "beds": "1 Çift Kişilik Yatak",
+            "description": "Çift kişilik odamızda huzur ve konforu keşfedin. İnce detaylarla döşenmiş iç mekanımız sizi bekliyor.",
+            "longDescription": "Konforlu çift kişilik odamız 35 metrekare rafine yaşam alanı sunar. Çift kişilik yatak ve sofistike iç tasarım ile rafine bir konfor atmosferi yaratıyor. Çiftler için ideal."
         },
         "deluxeFrenchCity": {
-            "name": "Deluxe French City",
-            "category": "Şehir Panoraması",
-            "description": "Şehir manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Işıltılı şehir manzarasını konforlu süitinizden izleyin.",
-            "longDescription": "Deluxe French City odalarımız, şehir manzarasının muhteşem görüntülerini sunuyor. 35 metrekare modern alan, yumuşak bir Fransız yatağı ve tavandan tabana cam pencereler ile canlı şehir atmosferinin keyfini zarif odanızın konforundan çıkarabilirsiniz. Kentsel nabza bağlı kalmak isteyen misafirler için mükemmeldir."
+            "name": "3 Kişilik Oda",
+            "beds": "1 Çift + 1 Tek Yatak",
+            "description": "Üç kişiye kadar misafir ağırlayan odamızda konforlu bir konaklama deneyimi yaşayın.",
+            "longDescription": "3 kişilik odalarımız 35 metrekare modern alan sunar. Çift ve tek yatak seçeneği ile aile veya arkadaş grubu için idealdir. Tüm konfor olanaklarıyla unutulmaz bir konaklama."
         }
     },
     "sustainability": {
@@ -127,7 +131,7 @@
         },
         "address": {
             "title": "Adres",
-            "content": "Dede Mahallesi, Haktanır Sokak No:4\nBademlik, 26030 Odunpazarı/Eskişehir"
+            "content": "Sivrihisar Havacılık Merkezi, Yeşilköy\n26600 Sivrihisar/Eskişehir"
         },
         "contact": {
             "title": "İletişim",
@@ -141,6 +145,7 @@
             "title": "Uygulama"
         },
         "legal": {
+            "sustainability": "Sürdürülebilirlik",
             "privacy": "Gizlilik",
             "cookies": "Çerezler",
             "sales": "Mesafeli Satış",
@@ -155,10 +160,7 @@
     "gallery": {
         "title": "Medya Galerisi",
         "subtitle": "AirPark Hotel'i Keşfedin",
-        "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün.",
-        "option1": "Seçenek 1 — Klasik Izgara",
-        "option2": "Seçenek 2 — Masonry",
-        "option3": "Seçenek 3 — Öne Çıkan Hero"
+        "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün."
     },
     "spa": {
         "title": "Spa & Sağlık",
@@ -222,5 +224,31 @@
             "hours": "Resepsiyon Saatleri",
             "hoursInfo": "7/24 Hizmetinizdeyiz"
         }
+    },
+    "contactPage": {
+        "title": "İletişim ve Ulaşım",
+        "subtitle": "Bize Ulaşın",
+        "description": "Sorularınız veya rezervasyon talepleriniz için bizimle iletişime geçebilirsiniz.",
+        "addressTitle": "Adres",
+        "mapTitle": "Konum",
+        "transportTitle": "Ulaşım",
+        "transportByCar": "Araç ile / Google Maps",
+        "transportByCarDescription": "Adresinize yol tarifi almak için aşağıdaki haritayı kullanabilir veya Google Maps'te aç butonuna tıklayabilirsiniz.",
+        "openInGoogleMaps": "Google Maps'te Aç",
+        "transportByPlane": "Uçak ile Ulaşım",
+        "transportByPlaneDescription": "Eskişehir Anadolu Havalimanı'na uçarak otelimize ulaşabilirsiniz. Havalimanından otelimize transfer veya araç kiralama seçenekleri hakkında bilgi almak için resepsiyonumuzla iletişime geçin.",
+        "planeSectionTitle": "HAVADAN",
+        "shmCoordinates": "S.H.M. Koordinatları",
+        "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50'",
+        "tower": "Artan Kule",
+        "towerValue": "131,625 MHz",
+        "runwayHeadings": "Pist Yönleri",
+        "runwayHeadingsValue": "05 – 23",
+        "runwayLength": "Pist Uzunluğu",
+        "runwayLengthValue": "1810 x 32 m (Asfalt)",
+        "elevation": "Rakım",
+        "elevationValue": "2790 Feet",
+        "operatingHours": "Çalışma Günleri ve Saatleri",
+        "operatingHoursValue": "Salı – Pazar\n09:00 – Gün batımı"
     }
 }

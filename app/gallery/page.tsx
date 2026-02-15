@@ -6,13 +6,6 @@ import Image from 'next/image';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from '@/components/ui/carousel';
-import {
   Dialog,
   DialogContent,
   DialogTitle,
@@ -56,135 +49,27 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Main images carousel */}
-      <section className="max-w-5xl mx-auto px-6 py-16">
-        <Carousel opts={{ align: 'start', loop: true }} className="w-full">
-          <CarouselContent className="-ml-2 md:-ml-4">
-            {GALLERY_IMAGES.map((src, i) => (
-              <CarouselItem key={src} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
-                <button
-                  type="button"
-                  onClick={() => openLightbox(i)}
-                  className={`w-full aspect-[4/3] relative overflow-hidden rounded-xl bg-brand-beige/30 ${imageButtonClass} block text-left`}
-                >
-                  <Image
-                    src={src}
-                    alt={`Gallery ${i + 1}`}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </button>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="left-2 md:-left-12 border-brand-primary/20 text-brand-primary hover:bg-brand-beige/50 hover:text-brand-primary" />
-          <CarouselNext className="right-2 md:-right-12 border-brand-primary/20 text-brand-primary hover:bg-brand-beige/50 hover:text-brand-primary" />
-        </Carousel>
-      </section>
-
-      {/* Layout examples — displayed separately */}
-      <div className="max-w-7xl mx-auto px-6 py-16 space-y-24">
-        {/* Option 1: Classic Grid */}
-        <section>
-          <h2 className="text-2xl font-bold text-brand-primary mb-2 border-b border-brand-primary/20 pb-2">
-            {t('option1')}
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {GALLERY_IMAGES.map((src, i) => (
-              <button
-                key={src}
-                type="button"
-                onClick={() => openLightbox(i)}
-                className={`aspect-square relative overflow-hidden rounded-lg bg-brand-beige/30 ${imageButtonClass}`}
-              >
-                <Image
-                  src={src}
-                  alt={`Gallery ${i + 1}`}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                />
-              </button>
-            ))}
-          </div>
-        </section>
-
-        {/* Option 2: Masonry */}
-        <section>
-          <h2 className="text-2xl font-bold text-brand-primary mb-2 border-b border-brand-primary/20 pb-2">
-            {t('option2')}
-          </h2>
-
-          <div
-            className="columns-2 md:columns-3 lg:columns-4"
-            style={{ columnGap: '1rem' }}
-          >
-            {GALLERY_IMAGES.map((src, i) => {
-              const aspect = i % 3 === 0 ? 'aspect-[4/3]' : i % 3 === 1 ? 'aspect-square' : 'aspect-[3/4]';
-              return (
-                <div key={src} className="break-inside-avoid mb-4">
-                  <button
-                    type="button"
-                    onClick={() => openLightbox(i)}
-                    className={`relative overflow-hidden rounded-lg bg-brand-beige/30 w-full ${aspect} cursor-pointer transition-transform duration-300 hover:scale-[1.02] block`}
-                  >
-                    <Image
-                      src={src}
-                      alt={`Gallery ${i + 1}`}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                    />
-                  </button>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* Option 3: Featured hero + grid */}
-        <section>
-          <h2 className="text-2xl font-bold text-brand-primary mb-2 border-b border-brand-primary/20 pb-2">
-            {t('option3')}
-          </h2>
-
-          <div className="space-y-4">
+      {/* Classic grid */}
+      <section className="max-w-7xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {GALLERY_IMAGES.map((src, i) => (
             <button
+              key={src}
               type="button"
-              onClick={() => openLightbox(0)}
-              className={`w-full aspect-[21/9] relative overflow-hidden rounded-xl bg-brand-beige/30 cursor-pointer transition-transform duration-300 hover:scale-[1.02] block`}
+              onClick={() => openLightbox(i)}
+              className={`aspect-square relative overflow-hidden rounded-lg bg-brand-beige/30 ${imageButtonClass}`}
             >
               <Image
-                src={GALLERY_IMAGES[0]}
-                alt="Gallery hero"
+                src={src}
+                alt={`Gallery ${i + 1}`}
                 fill
                 className="object-cover"
-                sizes="100vw"
-                priority
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
               />
             </button>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
-              {GALLERY_IMAGES.slice(1, 13).map((src, i) => (
-                <button
-                  key={src}
-                  type="button"
-                  onClick={() => openLightbox(i + 1)}
-                  className={`aspect-square relative overflow-hidden rounded-lg bg-brand-beige/30 ${imageButtonClass}`}
-                >
-                  <Image
-                    src={src}
-                    alt={`Gallery ${i + 2}`}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 33vw, (max-width: 768px) 25vw, 16vw"
-                  />
-                </button>
-              ))}
-            </div>
-          </div>
-        </section>
-      </div>
+          ))}
+        </div>
+      </section>
 
       {/* Lightbox — full-page shadcn Dialog */}
       <Dialog open={isOpen} onOpenChange={(open) => !open && closeLightbox()}>
