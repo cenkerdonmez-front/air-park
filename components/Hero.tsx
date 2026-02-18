@@ -13,7 +13,7 @@ export function Hero() {
       <Image
         alt="Luxury Hotel Exterior"
         className="absolute inset-0 w-full h-full object-cover"
-        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDq5o5hlyFMxwea2eoGJ9-BWH9vg-De2YHqT7aia55PjvpXcMCSHCgCnxHVRXZvMOukNmQr7813OY26IBF9cyxEYlw31DLcD31ZUljCOMb9Opn1TKUPxf5pabGrB8L4VRQPvEyN34hu0RHoip7s311tsh0eoLZumVvNuiB3ko-MYkCcNksuLkxQUWYkuUzIA5oyRBYEfzhbuvTwtywMLGpFKwTVHt_hsannf8ExXYNpluhSIdc-SE5tFMoCA1Kz49GYSSaStitRuWU"
+        src="/aph-header-2.jpg.jpeg"
         fill
         priority
       />

@@ -16,7 +16,7 @@ export const rooms: Room[] = [
     slug: 'deluxe-twin-garden',
     key: 'deluxeTwinGarden',
     images: ['/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg', '/rooms/1/4.jpg', '/rooms/1/5.jpg'],
-    size: 35,
+    size: 30,
     capacity: {
       adults: 2,
       children: 1,
@@ -28,7 +28,7 @@ export const rooms: Room[] = [
     slug: 'deluxe-french-garden',
     key: 'deluxeFrenchGarden',
     images: ['/rooms/2/1.jpg', '/rooms/2/2.jpg', '/rooms/2/3.jpg', '/rooms/2/4.jpg'],
-    size: 35,
+    size: 30,
     capacity: {
       adults: 2,
       children: 0,
