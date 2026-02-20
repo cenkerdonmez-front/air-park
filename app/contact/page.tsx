@@ -46,11 +46,11 @@ export default function ContactPage() {
                  
                 />
               </div>
-              <div className="p-6 md:p-8 flex flex-col justify-start col-span-1">
+              <div className="p-6 md:p-8 flex flex-col justify-start col-span-1 bg-brand-primary/10">
                 <h4 className="font-display text-lg font-semibold text-brand-primary tracking-wide mb-4">
                   {t('planeSectionTitle')}
                 </h4>
-                <div className="space-y-2 text-sm text-brand-primary/90">
+                <div className="space-y-2 font-display  text-brand-primary">
                   <p><span className="font-semibold">{t('shmCoordinates')}</span><br />{t('shmCoordinatesValue')}</p>
                   <p><span className="font-semibold">{t('tower')}</span><br />{t('towerValue')}</p>
                   <p><span className="font-semibold">{t('runwayHeadings')}</span><br />{t('runwayHeadingsValue')}</p>

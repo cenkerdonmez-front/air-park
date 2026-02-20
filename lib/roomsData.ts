@@ -1,8 +1,10 @@
+export type RoomSize = number | [number, number];
+
 export interface Room {
   slug: string;
   key: string;
   images: string[];
-  size: number;
+  size: RoomSize;
   capacity: {
     adults: number;
     children: number;
@@ -43,7 +45,7 @@ export const rooms: Room[] = [
     size: 30,
     capacity: {
       adults: 3,
-      children: 0,
+      children: 1,
     },
     beds: '1 Double + 1 Single Bed',
     features: ['airConditioningHeating', 'tv43', 'minibar', 'teaCoffee', 'babyCrib', 'shower', 'slippers', 'hairdryer', 'wifi', 'parking', 'breakfast'],
@@ -55,7 +57,7 @@ export const rooms: Room[] = [
     size: 30,
     capacity: {
       adults: 3,
-      children: 0,
+      children: 1,
     },
     beds: '1 Double + 1 Single Bed',
     features: ['airConditioningHeating', 'tv43', 'minibar', 'teaCoffee', 'babyCrib', 'shower', 'slippers', 'hairdryer', 'wifi', 'parking', 'breakfast'],
@@ -64,10 +66,10 @@ export const rooms: Room[] = [
     slug: 'deluxe-french-city',
     key: 'deluxeFrenchCity',
     images: ['/rooms/3/1.jpg', '/rooms/3/2.jpg', '/rooms/3/3.jpg', '/rooms/3/4.jpg', '/rooms/3/5.jpg'],
-    size: 35,
+    size: [45, 60],
     capacity: {
       adults: 3,
-      children: 0,
+      children: 1,
     },
     beds: '1 Double + 1 Single Bed',
     features: ['airConditioningHeating', 'tv43', 'minibar', 'teaCoffee', 'babyCrib', 'shower', 'slippers', 'hairdryer', 'wifi', 'parking', 'breakfast'],
@@ -76,4 +78,9 @@ export const rooms: Room[] = [
 
 export function getRoomBySlug(slug: string): Room | undefined {
   return rooms.find(room => room.slug === slug);
+}
+
+/** Format room size for display: single number or "45 or 60" for two options */
+export function formatRoomSize(size: RoomSize): string {
+  return Array.isArray(size) ? `${size[0]} or ${size[1]}` : String(size);
 }

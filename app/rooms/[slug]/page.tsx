@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ChevronLeft, ChevronRight, Users, Bed, Maximize2, ThermometerSun, Tv, Refrigerator, Coffee, Baby, ShowerHead, Footprints, Wind, Wifi, Car, UtensilsCrossed, Sparkles, X } from 'lucide-react';
-import { getRoomBySlug } from '@/lib/roomsData';
+import { getRoomBySlug, formatRoomSize } from '@/lib/roomsData';
 import { useTranslations } from 'next-intl';
 import type { LucideIcon } from 'lucide-react';
 
@@ -118,7 +118,7 @@ export default function RoomPage({ params }: RoomPageProps) {
                 </div>
                 <div className="flex items-center space-x-3 group cursor-default">
                   <Maximize2 className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{room.size} m²</span>
+                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{formatRoomSize(room.size)} m²</span>
                 </div>
                 {room.features.map((featureKey) => {
                   const Icon = FEATURE_ICONS[featureKey];
@@ -172,7 +172,7 @@ export default function RoomPage({ params }: RoomPageProps) {
                   onClick={(e) => e.stopPropagation()}
                   onKeyDown={(e) => e.stopPropagation()}
                 >
-                  <span>{room.size}</span>
+                  <span>{formatRoomSize(room.size)}</span>
                   <span className="text-[10px] uppercase tracking-widest opacity-80">m2</span>
                 </div>
 

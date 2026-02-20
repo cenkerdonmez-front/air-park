@@ -4,13 +4,15 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import type { RoomSize } from '@/lib/roomsData';
+import { formatRoomSize } from '@/lib/roomsData';
 
 interface RoomCardProps {
   slug: string;
   name: string;
   description: string;
   image: string;
-  size: number;
+  size: RoomSize;
 }
 
 export function RoomCard({ slug, name, description, image, size }: RoomCardProps) {
@@ -27,7 +29,7 @@ export function RoomCard({ slug, name, description, image, size }: RoomCardProps
           fill
         /></Link>
         <div className="absolute top-3 right-3 bg-brand-primary/90 text-white px-2 py-1 text-[10px] font-bold">
-          {size} {t('common.squareMeters')}
+          {formatRoomSize(size)} {t('common.squareMeters')}
         </div>
       </div>
       <div className="p-5 flex-grow flex flex-col">
