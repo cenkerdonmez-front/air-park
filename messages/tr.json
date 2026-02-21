@@ -40,13 +40,13 @@
             "babyCrib": "Bebek karyolası (istenirse)",
             "shower": "Duş",
             "slippers": "Terlik",
-            "hairdryer": "Saç kurutma makinesi",
-            "wifi": "Ücretsiz wifi",
-            "parking": "Ücretsiz otopark",
-            "breakfast": "Açık büfe kahvaltı"
+            "hairdryer": "Saç Kurutma Makinesi",
+            "wifi": "Ücretsiz Wi‑Fi",
+            "parking": "Ücretsiz Otopark",
+            "breakfast": "Açık Büfe Kahvaltı"
         },
         "deluxeTwinGardenView": {
-            "name": "Konforlu Çift Kişilik Oda – Bahçe Manzarası",
+            "name": "Konforlu Çift Kişilik Oda",
             "beds": "1 Çift Kişilik Yatak",
             "description": "Bahçe manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
             "longDescription": "Bahçe manzaralı çift kişilik odamız 30 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
@@ -58,7 +58,7 @@
             "longDescription": "Göl manzaralı çift kişilik odamız 30 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
         },
         "deluxeFrenchGardenView": {
-            "name": "3 Kişilik Oda – Bahçe Manzarası",
+            "name": "3 Kişilik Oda",
             "beds": "1 Çift + 1 Tek Kişilik Yatak",
             "description": "Bahçe manzaralı üç kişilik odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
             "longDescription": "Bahçe manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."

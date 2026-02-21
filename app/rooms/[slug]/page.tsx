@@ -95,9 +95,6 @@ export default function RoomPage({ params }: RoomPageProps) {
 
               {/* Description Box */}
               <div className="bg-brand-primary/10 p-6 sm:p-8 rounded-2xl border-l-4 border-brand-primary relative overflow-hidden group">
-                <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
-                  <Sparkles className="w-32 h-32 text-brand-primary" />
-                </div>
                 <p className="text-stone-700 leading-relaxed text-lg relative z-10">
                   {t(`${room.key}.longDescription`)}
                 </p>

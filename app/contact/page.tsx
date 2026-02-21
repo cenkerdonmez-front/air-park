@@ -1,7 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
-import { MapPin, PlaneLanding, AlertTriangle, Plane } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 import Image from 'next/image';
 
 const GOOGLE_MAPS_DIRECTIONS_URL =
@@ -200,14 +200,35 @@ export default function ContactPage() {
 
 
       {/* Contact info at bottom of page */}
-      <section id="contact" className="py-12 px-6 border-t border-brand-primary/10 scroll-mt-24">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="font-display text-xl text-brand-primary mb-4">
+      <section id="contact" className="py-20 md:py-28 px-6 border-t border-brand-primary/10 scroll-mt-24 bg-gradient-to-b from-brand-beige/30 to-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-display text-3xl md:text-4xl text-brand-primary text-center mb-12 md:mb-16">
             {tFooter('contact.title')}
           </h2>
-          <p className="text-brand-primary/80">
-            {tFooter('contact.phone')} · {tFooter('contact.email')}
-          </p>
+          <div className="grid sm:grid-cols-2 gap-6 md:gap-8">
+            <div className="group flex flex-col items-center justify-center p-8 md:p-10 rounded-2xl bg-white border-2 border-brand-primary/10 shadow-md hover:shadow-xl hover:border-brand-primary/25 transition-all duration-300">
+              <span className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-brand-primary/10 text-brand-primary mb-4 group-hover:bg-brand-primary/20 transition-colors">
+                <Phone className="w-7 h-7 md:w-8 md:h-8" />
+              </span>
+              <span className="text-sm font-semibold text-brand-primary/70 uppercase tracking-wider mb-2">
+                Phone
+              </span>
+              <span className="font-display text-xl md:text-2xl text-brand-primary text-center font-semibold">
+                {tFooter('contact.phone')}
+              </span>
+            </div>
+            <div className="group flex flex-col items-center justify-center p-8 md:p-10 rounded-2xl bg-white border-2 border-brand-primary/10 shadow-md hover:shadow-xl hover:border-brand-primary/25 transition-all duration-300">
+              <span className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-brand-primary/10 text-brand-primary mb-4 group-hover:bg-brand-primary/20 transition-colors">
+                <Mail className="w-7 h-7 md:w-8 md:h-8" />
+              </span>
+              <span className="text-sm font-semibold text-brand-primary/70 uppercase tracking-wider mb-2">
+                Email
+              </span>
+              <span className="font-display text-lg md:text-xl text-brand-primary text-center font-semibold break-all">
+                {tFooter('contact.email')}
+              </span>
+            </div>
+          </div>
         </div>
       </section>
 

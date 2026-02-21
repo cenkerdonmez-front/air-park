@@ -26,14 +26,14 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
               <Image 
                 src="/AirParkHotel_Logo_RGB.png" 
                 alt="AirPark Hotel Logo" 
-                width={180} 
-                height={40}
+                width={200} 
+                height={120}
                 priority
                 className="h-8 w-auto"
               />
             </Link>
             {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center space-x-6 text-[11px] font-bold uppercase tracking-wider text-brand-primary/80">
+            <div className="hidden lg:flex items-center space-x-6 text-[13px] font-bold uppercase tracking-wider text-brand-primary/80">
               <Link className="hover:text-brand-primary transition-colors" href="/rooms">
                 {t('nav.rooms')}
               </Link>

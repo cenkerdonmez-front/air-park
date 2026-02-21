@@ -5,8 +5,8 @@ import { FileText } from 'lucide-react';
 import Link from 'next/link';
 
 const SUSTAINABILITY_PDF_BY_LOCALE: Record<string, string> = {
-  tr: '/pdf/Airpark_Hotel_Hedefler_Ornek_TR.pdf',
-  en: '/pdf/Airpark_Hotel_Goals_Sample.pdf',
+  tr: '/pdf/politika.docx',
+  en: '/pdf/politika.docx',
 };
 
 export default function SustainabilityPage() {
