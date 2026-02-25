@@ -13,7 +13,7 @@ export function Hero() {
       <Image
         alt="Luxury Hotel Exterior"
         className="absolute inset-0 w-full h-full object-cover"
-        src="/aph-header-2.jpg.jpeg"
+        src="/aph-header-2.jpg.jpg"
         fill
         priority
       />
