@@ -1,5 +1,6 @@
 import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero';
+import { HomeExperienceSection } from '@/components/HomeExperienceSection';
 import { RoomsSection } from '@/components/RoomsSection';
 import { GallerySection } from '@/components/GallerySection';
 import { PartnersSection } from '@/components/PartnersSection';
@@ -11,6 +12,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <RoomsSection />
+      <HomeExperienceSection />
       <GallerySection />
       <PartnersSection />
       <Footer />

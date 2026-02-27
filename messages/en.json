@@ -1,7 +1,9 @@
 {
     "nav": {
         "brand": "AIRPARK",
+        "about": "About",
         "rooms": "Rooms",
+        "opportunities": "Opportunities",
         "gallery": "Gallery",
         "spa": "Spa & Wellness",
         "events": "Events",
@@ -10,7 +12,7 @@
         "reservation": "Reservation"
     },
     "hero": {
-        "title": "AirPark Hotel",
+        "title": "AirParkHotel",
         "cta": "Make a Reservation"
     },
     "rooms": {
@@ -333,5 +335,38 @@
         "shgAirshowArrival": "Arrival to SHG Airshow Area",
         "shgAirshowArrivalMapAlt": "Map for arrival to SHG Airshow area",
         "parkingWarning": "For show safety, vehicle parking on the road will not be permitted."
+    },
+    "aboutPage": {
+        "title": "About AirPark Hotel",
+        "subtitle": "Utilitarian Luxury",
+        "description": "Learn more about our story, philosophy and the experience we aim to create for every guest.",
+        "paragraph1": "AirPark Hotel is designed as a contemporary retreat where aviation culture and refined comfort meet. Located next to Sivrihisar Aviation Center, our hotel offers guests a unique experience surrounded by the dynamism of the runway and the calm of the landscape.",
+        "paragraph2": "Our rooms and suites are created with a focus on functional elegance: everything you need, thoughtfully curated, without excess. From the materials we choose to the services we provide, we prioritise quality, practicality and a warm, welcoming atmosphere.",
+        "paragraph3": "Whether you are here for a short stopover, a weekend escape or a special event, our team is dedicated to making your stay effortless and memorable. We look forward to welcoming you to AirPark Hotel."
+    },
+    "opportunitiesPage": {
+        "title": "Opportunities & Offers",
+        "subtitle": "Stay, Discover, Experience",
+        "description": "Discover current offers, packages and special opportunities designed to make your stay even more enjoyable.",
+        "paragraph1": "We regularly create stay packages and special offers tailored to different needs: from weekend escapes and long-stay advantages to group reservations and event collaborations.",
+        "paragraph2": "If you are planning a corporate event, aviation organisation or group stay, you can contact us for customised packages, flexible date options and special pricing.",
+        "paragraph3": "For our latest opportunities and campaigns, please reach out to our reservations team or follow our communication channels. We will be happy to design the most suitable option for you."
+    },
+    "homeExperience": {
+        "nature": {
+            "eyebrow": "NATURE & TRANQUILLITY",
+            "title": "THE CENTER OF NATURE, CALM AND PRIVILEGE",
+            "subtitle": "Next to the Sky, Away from the City Noise",
+            "p1": "Nestled in greenery and silence, AirParkHotel offers a unique stay shaped by the serenity of the lake and the inspiring atmosphere of aviation.",
+            "p2": "You can spend joyful moments with optimist or radio‑controlled boats on the lake, refresh your mind in the stillness of nature and rediscover what true rest really feels like.",
+            "p3": "AirParkHotel is more than a place to stay; it is a way of life."
+        },
+        "aviation": {
+            "eyebrow": "FOR AVIATORS",
+            "title": "A TAILORED STAY FOR AVIATORS",
+            "subtitle": "Ready‑for‑Flight Comfort, A Professional Atmosphere",
+            "p1": "AirParkHotel is a distinctive property positioned specifically for civil and professional aviation activities. The privilege of staying right next to the runway and apron offers maximum efficiency and comfort for pilots and aviation professionals.",
+            "p2": "For those who want to rest between flight plans, stay focused during training programmes or simply feel closer to the sky, AirParkHotel is much more than an ordinary hotel."
+        }
     }
 }

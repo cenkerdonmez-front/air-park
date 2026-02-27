@@ -77,7 +77,7 @@ export default function ContactPage() {
           >
             <div className="relative w-full aspect-[4/3] ">
               <Image
-                src="/contact/map.png"
+                src="/contact/map.jpeg"
                 alt={t('mapTitle')}
                 height={1600}
                 width={1600}
