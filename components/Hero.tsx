@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 export function Hero() {
   const t = useTranslations('hero');
 
@@ -18,7 +19,7 @@ export function Hero() {
         priority
       />
       <div className="absolute inset-0 hero-overlay flex flex-col items-center justify-center text-center px-4">
-        <h2 className="text-white text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+        <h2 className={` text-white text-5xl md:text-7xl font-extrabold mb-6 tracking-tight`}>
           {t('title')}
         </h2>
         <Link href="/booking">

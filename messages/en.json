@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "AIRPARK",
+        "brand": "AirParkHotel",
         "about": "About",
         "rooms": "Rooms",
         "opportunities": "Opportunities",
@@ -54,9 +54,9 @@
             "longDescription": "A Special View Where Aviation and Nature Meet\nExperience the accommodation closest to the sky. These rooms, specially designed for civil and professional aviators, create an ideal atmosphere for focusing before flight, resting after flight, and renewing amidst nature. With modern lines, ergonomic details and the privilege of a quiet rural setting, every moment spent here becomes a true privilege.\nStaying at AirParkHotel is not just staying in a room; it is living an experience at the heart of aviation, next to the sky."
         },
         "deluxeTwinLakeView": {
-            "name": "APRON & LAKE VIEW ROOMS",
+            "name": "Apron & Lake View Rooms",
             "beds": "1 Double Bed",
-            "description": "Apron and Lake View Refined Comfort",
+            "description": "In these rooms where apron and lake views meet, the energy of aviation and the calm of nature share the same window. Modern design and the tranquil setting create a comfortable and inspiring stay.",
             "longDescription": "The calm surface of the lake and the dynamic energy of the runway… In these special view rooms, the silence of nature and the excitement of aviation meet in perfect balance. The lake where optimist and radio-controlled boats glide offers a unique atmosphere that restores your mind, while the apron view lets you feel the living spirit of aviation at every moment. These rooms offer not just comfort; but inspiration, peace and a sense of belonging."
         },
         "deluxeFrenchGardenView": {
@@ -81,7 +81,7 @@
     "sustainability": {
         "subtitle": "Our Promise to the Future",
         "title": "Sustainability",
-        "policyParagraph1": "At AirPark Hotel we pursue a sustainability policy that balances ecological balance with economic growth, ensures the effective use of natural resources, values environmental quality, and meets today's needs without compromising the ability of future generations to meet their own.",
+        "policyParagraph1": "At AirParkHotel we pursue a sustainability policy that balances ecological balance with economic growth, ensures the effective use of natural resources, values environmental quality, and meets today's needs without compromising the ability of future generations to meet their own.",
         "policyParagraph2": "Within the scope of this sustainability policy, we carry out work in social, cultural, environmental and economic areas, and our hotel participates in practices that embrace this policy.",
         "pdfSectionTitle": "Sustainability Policy Document",
         "pdfSectionDescription": "You can read the full text of our policy in the document below.",
@@ -137,13 +137,13 @@
             "disclosure": "Disclosure Text",
             "amenities": "Amenities",
             "cancellation": "Cancellation Policy",
-            "copyright": "© 2026 AIRPARKHOTEL. ALL RIGHTS RESERVED."
+            "copyright": "© 2026 AirParkHotel. ALL RIGHTS RESERVED."
         }
     },
     "privacyPage": {
         "title": "Privacy Policy",
         "lastUpdated": "Last updated",
-        "intro": "AirPark Hotel respects your privacy. This policy explains how we collect, use and protect your personal data when you use our website or stay at our hotel.",
+        "intro": "AirParkHotel respects your privacy. This policy explains how we collect, use and protect your personal data when you use our website or stay at our hotel.",
         "s1Title": "Data We Collect",
         "s1Content": "We may collect your name, contact details (email, phone, address), identity information, payment details, stay preferences and reservation history. We collect this data when you make a reservation, contact us, use our website or stay at the hotel.",
         "s2Title": "How We Use Your Data",
@@ -158,9 +158,9 @@
     "salesPage": {
         "title": "Distance Sales Agreement",
         "lastUpdated": "Last updated",
-        "intro": "This Distance Sales Agreement applies to accommodation and related services you purchase from AirPark Hotel via our website, phone or other remote means.",
+        "intro": "This Distance Sales Agreement applies to accommodation and related services you purchase from AirParkHotel via our website, phone or other remote means.",
         "s1Title": "Parties",
-        "s1Content": "Seller: AirPark Hotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Buyer: the guest who makes the reservation.",
+        "s1Content": "Seller: AirParkHotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Buyer: the guest who makes the reservation.",
         "s2Title": "Subject & Conclusion of Contract",
         "s2Content": "The subject of the contract is the accommodation and related services described at the time of booking. The contract is concluded when the buyer completes the reservation and receives confirmation. Prices and payment terms are as stated during the booking process.",
         "s3Title": "Right of Withdrawal",
@@ -173,9 +173,9 @@
     "disclosurePage": {
         "title": "Disclosure Text",
         "lastUpdated": "Last updated",
-        "intro": "As AirPark Hotel, we process your personal data in the capacity of data controller within the framework of the Turkish Personal Data Protection Law (KVKK) and applicable legislation. This text is intended to inform you about the processing of your personal data.",
+        "intro": "As AirParkHotel, we process your personal data in the capacity of data controller within the framework of the Turkish Personal Data Protection Law (KVKK) and applicable legislation. This text is intended to inform you about the processing of your personal data.",
         "s1Title": "Data Controller",
-        "s1Content": "AirPark Hotel, located at Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir, is the data controller for the personal data you provide through our website, reservation system or during your stay.",
+        "s1Content": "AirParkHotel, located at Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir, is the data controller for the personal data you provide through our website, reservation system or during your stay.",
         "s2Title": "Purposes of Processing",
         "s2Content": "Your personal data may be processed for the purposes of performing the accommodation contract, providing services, managing reservations, fulfilling legal obligations, ensuring security and, subject to your consent, carrying out marketing and communication activities.",
         "s3Title": "Legal Grounds",
@@ -228,7 +228,7 @@
     },
     "gallery": {
         "title": "Gallery",
-        "subtitle": "Discover AirPark Hotel",
+        "subtitle": "Discover AirParkHotel",
         "description": "Explore our hotel through photos and videos. Get a glimpse of our rooms, facilities, and the experiences that await you.",
         "viewAll": "View full gallery"
     },
@@ -250,7 +250,7 @@
     "meeting": {
         "title": "Events",
         "subtitle": "Professional Event Spaces",
-        "description": "Host birthdays, weddings, engagements, corporate events or special celebrations at AirPark Hotel. Our modern venues and professional services create unforgettable experiences.",
+        "description": "Host birthdays, weddings, engagements, corporate events or special celebrations at AirParkHotel. Our modern venues and professional services create unforgettable experiences.",
         "facilities": "Our Event Spaces",
         "conferenceRooms": "Indoor Event Hall",
         "boardRoom": "Private Event Room",
@@ -337,12 +337,12 @@
         "parkingWarning": "For show safety, vehicle parking on the road will not be permitted."
     },
     "aboutPage": {
-        "title": "About AirPark Hotel",
+        "title": "About AirParkHotel",
         "subtitle": "Utilitarian Luxury",
         "description": "Learn more about our story, philosophy and the experience we aim to create for every guest.",
-        "paragraph1": "AirPark Hotel is designed as a contemporary retreat where aviation culture and refined comfort meet. Located next to Sivrihisar Aviation Center, our hotel offers guests a unique experience surrounded by the dynamism of the runway and the calm of the landscape.",
+        "paragraph1": "AirParkHotel is designed as a contemporary retreat where aviation culture and refined comfort meet. Located next to Sivrihisar Aviation Center, our hotel offers guests a unique experience surrounded by the dynamism of the runway and the calm of the landscape.",
         "paragraph2": "Our rooms and suites are created with a focus on functional elegance: everything you need, thoughtfully curated, without excess. From the materials we choose to the services we provide, we prioritise quality, practicality and a warm, welcoming atmosphere.",
-        "paragraph3": "Whether you are here for a short stopover, a weekend escape or a special event, our team is dedicated to making your stay effortless and memorable. We look forward to welcoming you to AirPark Hotel."
+        "paragraph3": "Whether you are here for a short stopover, a weekend escape or a special event, our team is dedicated to making your stay effortless and memorable. We look forward to welcoming you to AirParkHotel."
     },
     "opportunitiesPage": {
         "title": "Opportunities & Offers",

@@ -19,19 +19,19 @@ export default function SustainabilityPage() {
       <Navigation />
 
       {/* Hero */}
-      <section className="relative min-h-[220px] bg-gradient-to-br from-brand-beige to-brand-beige/80 flex items-center">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-brand-primary/60 text-sm font-semibold tracking-widest uppercase mb-2">
+      <section className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <span className="text-white/80 font-bold tracking-wider uppercase text-sm md:text-base mb-3 block">
             {t('subtitle')}
-          </p>
-          <h1 className="font-display text-4xl md:text-6xl text-brand-primary">
+          </span>
+          <h1 className="text-5xl font-bold">
             {t('title')}
           </h1>
         </div>
       </section>
 
       {/* Policy text */}
-      <section className="py-12 md:py-16">
+      <section className="py-12 md:py-16 !bg-brand-beige/30">
         <div className="max-w-3xl mx-auto px-6">
           <div className="prose prose-lg text-stone-700 space-y-6">
             <p className="leading-relaxed">{t('policyParagraph1')}</p>

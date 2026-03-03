@@ -33,10 +33,10 @@ export function GallerySection() {
   const closeLightbox = () => setLightboxIndex(null);
 
   return (
-    <section className="bg-white pb-8 pt-2 border-y border-brand-primary/5">
+    <section className="bg-brand-beige/30 pb-8 pt-2 border-y border-brand-primary/5">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <span className="text-brand-primary font-bold tracking-wider uppercase text-md mb-2 block">
+          <span className="text-brand-primary font-bold tracking-wider  text-xl mb-2 block">
             {t('subtitle')}
           </span>
 

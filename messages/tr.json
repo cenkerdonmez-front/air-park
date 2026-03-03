@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "AIRPARK",
+        "brand": "AirParkHotel",
         "about": "Hakkımızda",
         "rooms": "Odalar",
         "opportunities": "Fırsatlar",
@@ -48,15 +48,15 @@
             "breakfast": "Açık Büfe Kahvaltı"
         },
         "deluxeTwinGardenView": {
-            "name": "Konforlu Çift kişilik standart oda",
+            "name": "Konforlu Çift Kişilik Standart Oda",
             "beds": "1 Çift Kişilik Yatak",
             "description": "Bahçe manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
             "longDescription": "Havacılık ve Doğanın Buluştuğu Özel Manzara\nGökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler, ergonomik detaylar ve sessiz kırsal çevrenin ayrıcalığıyla, burada geçirilen her an gerçek bir ayrıcalığa dönüşür.\nAirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır"
         },
         "deluxeTwinLakeView": {
-            "name": "APRON & LAKE VIEW ROOMS",
+            "name": "Apron & Gölet Manzaralı Odalar",
             "beds": "1 Çift Kişilik Yatak",
-            "description": "Apron ve Gölet Manzaralı Seçkin Konfor",
+            "description": "Apron ve gölet manzarasının buluştuğu bu odalarda, havacılığın enerjisi ile doğanın huzuru aynı pencerede yer alır. Modern tasarım ve sessiz çevre, konforlu ve ilham verici bir konaklama sunar.",
             "longDescription": "Göletin huzur veren yüzeyi ve pistin dinamik enerjisi… Bu özel manzaralı odalarda, doğanın sessizliği ile havacılığın heyecanı kusursuz bir dengede buluşur. Optimist ve radyo kontrollü teknelerin süzüldüğü gölet, zihninizi dinlendiren eşsiz bir atmosfer sunarken, apron manzarası havacılığın yaşayan ruhunu her an hissetmenizi sağlar. Bu odalar, sadece konfor değil; ilham, huzur ve aidiyet duygusu sunar."
         },
         "deluxeFrenchGardenView": {
@@ -137,13 +137,13 @@
             "disclosure": "Aydınlatma Metni",
             "amenities": "Olanaklar",
             "cancellation": "İptal Koşulları",
-            "copyright": "© 2026 AIRPARKHOTEL. TÜM HAKLARI SAKLIDIR."
+            "copyright": "© 2026 AirParkHotel. TÜM HAKLARI SAKLIDIR."
         }
     },
     "privacyPage": {
         "title": "Gizlilik Politikası",
         "lastUpdated": "Son güncelleme",
-        "intro": "AirPark Hotel gizliliğinize saygı duyar. Bu politika, web sitemizi kullandığınızda veya otelimizde konakladığınızda kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
+        "intro": "AirParkHotel gizliliğinize saygı duyar. Bu politika, web sitemizi kullandığınızda veya otelimizde konakladığınızda kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
         "s1Title": "Topladığımız Veriler",
         "s1Content": "Adınız, iletişim bilgileriniz (e-posta, telefon, adres), kimlik bilgileriniz, ödeme bilgileriniz, konaklama tercihleriniz ve rezervasyon geçmişiniz toplanabilir. Bu veriler rezervasyon yaptığınızda, bizimle iletişime geçtiğinizde, web sitemizi kullandığınızda veya otelde kaldığınızda toplanır.",
         "s2Title": "Verilerinizi Nasıl Kullanıyoruz",
@@ -158,9 +158,9 @@
     "salesPage": {
         "title": "Mesafeli Satış Sözleşmesi",
         "lastUpdated": "Son güncelleme",
-        "intro": "Bu Mesafeli Satış Sözleşmesi, AirPark Hotel’den web sitemiz, telefon veya diğer uzaktan araçlarla satın aldığınız konaklama ve ilgili hizmetlere uygulanır.",
+        "intro": "Bu Mesafeli Satış Sözleşmesi, AirParkHotel’den web sitemiz, telefon veya diğer uzaktan araçlarla satın aldığınız konaklama ve ilgili hizmetlere uygulanır.",
         "s1Title": "Taraflar",
-        "s1Content": "Satıcı: AirPark Hotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Alıcı: Rezervasyonu yapan misafir.",
+        "s1Content": "Satıcı: AirParkHotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Alıcı: Rezervasyonu yapan misafir.",
         "s2Title": "Sözleşmenin Konusu ve Kurulması",
         "s2Content": "Sözleşmenin konusu, rezervasyon anında belirtilen konaklama ve ilgili hizmetlerdir. Sözleşme, alıcı rezervasyonu tamamlayıp onay aldığında kurulur. Fiyat ve ödeme koşulları rezervasyon sırasında belirtildiği gibidir.",
         "s3Title": "Cayma Hakkı",
@@ -173,7 +173,7 @@
     "disclosurePage": {
         "title": "Aydınlatma Metni",
         "lastUpdated": "Son güncelleme",
-        "intro": "AirPark Hotel olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat kapsamında veri sorumlusu sıfatıyla kişisel verilerinizi işlemekteyiz. Bu metin, kişisel verilerinizin işlenmesine ilişkin sizi bilgilendirmek amacıyla hazırlanmıştır.",
+        "intro": "AirParkHotel olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat kapsamında veri sorumlusu sıfatıyla kişisel verilerinizi işlemekteyiz. Bu metin, kişisel verilerinizin işlenmesine ilişkin sizi bilgilendirmek amacıyla hazırlanmıştır.",
         "s1Title": "Veri Sorumlusu",
         "s1Content": "Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir adresinde bulunan AirPark Hotel, web sitemiz, rezervasyon sistemi veya konaklamanız sırasında ilettiğiniz kişisel verilerin veri sorumlusudur.",
         "s2Title": "İşleme Amaçları",
@@ -228,7 +228,7 @@
     },
     "gallery": {
         "title": "Galeri",
-        "subtitle": "AirPark Hotel'i Keşfedin",
+        "subtitle": "AirParkHotel'i Keşfedin",
         "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün.",
         "viewAll": "Tüm galeriyi gör"
     },
@@ -250,7 +250,7 @@
     "meeting": {
         "title": "Etkinlikler",
         "subtitle": "Profesyonel Etkinlik Alanları",
-        "description": "Doğum günü, düğün, nişan, iş etkinliği veya özel günlerinizi AirPark Hotel'de düzenleyin. Modern mekânlarımız ve profesyonel hizmetlerimizle unutulmaz bir etkinlik yaşayın.",
+        "description": "Doğum günü, düğün, nişan, iş etkinliği veya özel günlerinizi AirParkHotel'de düzenleyin. Modern mekânlarımız ve profesyonel hizmetlerimizle unutulmaz bir etkinlik yaşayın.",
         "facilities": "Etkinlik Alanlarımız",
         "conferenceRooms": "Kapalı Etkinlik Salonu",
         "boardRoom": "Özel Etkinlik Odası",
@@ -337,10 +337,10 @@
         "parkingWarning": "Gösteri emniyeti sebebiyle, yol üzerinde araç parkına izin verilmeyecektir."
     },
     "aboutPage": {
-        "title": "AirPark Hotel Hakkında",
+        "title": "AirParkHotel Hakkında",
         "subtitle": "Kullanışlı Lüks",
         "description": "Hikayemizi, felsefemizi ve her misafir için yaratmak istediğimiz deneyimi keşfedin.",
-        "paragraph1": "AirPark Hotel, havacılık kültürü ile rafine konforun buluştuğu çağdaş bir konaklama noktası olarak tasarlandı. Sivrihisar Havacılık Merkezi’nin hemen yanında yer alan otelimiz, pisti çevreleyen dinamizm ile manzaranın dinginliğini bir arada sunan benzersiz bir deneyim sağlar.",
+        "paragraph1": "AirParkHotel, havacılık kültürü ile rafine konforun buluştuğu çağdaş bir konaklama noktası olarak tasarlandı. Sivrihisar Havacılık Merkezi’nin hemen yanında yer alan otelimiz, pisti çevreleyen dinamizm ile manzaranın dinginliğini bir arada sunan benzersiz bir deneyim sağlar.",
         "paragraph2": "Odalarımız ve süitlerimiz, işlevsel şıklık anlayışıyla oluşturuldu: İhtiyacınız olan her şey, abartıdan uzak, özenle seçilmiş detaylarla bir araya getirildi. Kullandığımız malzemelerden sunduğumuz hizmetlere kadar her adımda kaliteyi, pratikliği ve sıcak bir karşılama hissini ön planda tutuyoruz.",
         "paragraph3": "İster kısa bir mola için, ister hafta sonu kaçamağı ya da özel bir etkinlik için bizde konaklayın; ekibimiz konaklamanızın zahmetsiz ve unutulmaz geçmesi için çalışır. Sizi AirPark Hotel’de ağırlamaktan mutluluk duyarız."
     },

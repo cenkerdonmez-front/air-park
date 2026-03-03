@@ -12,20 +12,16 @@ export default function MeetingPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[200px] bg-gradient-to-br from-brand-beige to-brand-beige/80">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center px-6">
-          
-            <h1 className="font-display text-5xl md:text-7xl text-brand-primary mb-6">
-              {t('title')}
-            </h1>
-        
-          </div>
+      <section className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <h1 className="text-5xl md:text-7xl font-bold">
+            {t('title')}
+          </h1>
         </div>
       </section>
 
       {/* Event Program Image */}
-      <section className="py-12 px-6">
+      <section className="py-12 px-6 !bg-brand-beige/30">
         <div className="max-w-5xl mx-auto">
           <div className="bg-brand-beige/30 rounded-3xl p-6 md:p-10 border border-brand-primary/10 shadow-inner overflow-hidden">
             <div className="rounded-2xl overflow-hidden shadow-2xl group">

@@ -16,7 +16,7 @@ export function PartnersSection() {
   const t = useTranslations('partners');
 
   return (
-    <section className="bg-white py-16 border-t border-brand-primary/10">
+    <section className="bg-brand-beige/30 py-16 border-t border-brand-primary/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {PARTNER_CARDS.map(({ key, logo, title, url }) => (
@@ -31,7 +31,7 @@ export function PartnersSection() {
                     alt={title}
                     width={128}
                     height={128}
-                    className="object-contain w-full h-full"
+                    className={`object-contain w-full h-full ${key === 'mso' ? 'scale-125' : ''}`}
                   />
                 </div>
               </CardHeader>

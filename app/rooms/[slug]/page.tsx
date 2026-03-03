@@ -73,7 +73,7 @@ export default function RoomPage({ params }: RoomPageProps) {
       <Navigation variant="white" />
       
       <main className="grow">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 !bg-brand-beige/30">
           {/* Back Button */}
           <Link 
             href="/#rooms"
@@ -88,14 +88,14 @@ export default function RoomPage({ params }: RoomPageProps) {
             <div className="w-full lg:w-5/12 space-y-8 animate-fade-in">
               {/* Title Section */}
               <div>
-                <h1 className="text-5xl sm:text-6xl font-serif text-stone-900 mb-2 leading-tight">
+                <h1 className="text-2xl text-stone-900 mb-2 leading-tight">
                   {t(`${room.key}.name`)}
                 </h1>
               </div>
 
               {/* Description Box */}
               <div className="bg-brand-primary/10 p-6 sm:p-8 rounded-2xl border-l-4 border-brand-primary relative overflow-hidden group">
-                <p className="text-stone-700 leading-relaxed text-lg relative z-10">
+                <p className="text-stone-700 leading-relaxed text-md relative z-10">
                   {t(`${room.key}.longDescription`)}
                 </p>
                 {/* <p className="mt-4 text-stone-700 leading-relaxed relative z-10">

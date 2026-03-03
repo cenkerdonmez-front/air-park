@@ -11,21 +11,21 @@ export default function CancellationPage() {
     <div className="min-h-screen bg-white">
       <Navigation />
 
-      <section className="relative min-h-[200px] bg-gradient-to-br from-brand-beige to-brand-beige/80 flex items-center">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-brand-primary/60 text-sm font-semibold tracking-widest uppercase mb-2">
+      <section className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <span className="text-white/80 font-bold tracking-wider uppercase text-sm md:text-base mb-3 block">
             {t('subtitle')}
-          </p>
-          <h1 className="font-display text-4xl md:text-5xl text-brand-primary">
+          </span>
+          <h1 className="text-4xl md:text-5xl font-bold mb-2">
             {t('title')}
           </h1>
-          <p className="mt-2 text-brand-primary/60 text-sm">
+          <p className="text-white/80 text-sm">
             {t('lastUpdated')}: 2026
           </p>
         </div>
       </section>
 
-      <section className="py-12 md:py-16">
+      <section className="py-12 md:py-16 !bg-brand-beige/30">
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-stone-700 leading-relaxed mb-10">{t('intro')}</p>
           <div className="space-y-8">

@@ -15,7 +15,7 @@ export default async function RoomsPage() {
         {/* Hero Section */}
         <div className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">
           <div className="max-w-6xl mx-auto px-6">
-            <span className="text-white/80 font-bold tracking-wider uppercase text-xs mb-3 block">
+            <span className="text-white/80 font-bold tracking-wider uppercase text-sm md:text-base mb-3 block">
               {t('subtitle')}
             </span>
             <h1 className="text-5xl font-bold mb-4">
