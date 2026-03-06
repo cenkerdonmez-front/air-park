@@ -15,7 +15,14 @@
     },
     "hero": {
         "title": "AirParkHotel",
-        "cta": "Make a Reservation"
+        "tagline": "Next to the Runway, Neighbour to the Sky",
+        "subtitle": "A unique accommodation experience where aviation, nature and sustainability meet.",
+        "cta": "Make a Reservation",
+        "stats": {
+            "rooms": "40 Rooms & Suites",
+            "aviation": "Next to Aviation Center",
+            "solar": "Private Lake"
+        }
     },
     "rooms": {
         "title": "Rooms & Suites",
@@ -83,6 +90,8 @@
     "sustainability": {
         "subtitle": "Our Promise to the Future",
         "title": "Sustainability",
+        "description": "Renewable energy with solar panels. An accommodation experience that values environmental quality and keeps our promise to future generations.",
+        "cta": "Learn More",
         "policyParagraph1": "At AirParkHotel we pursue a sustainability policy that balances ecological balance with economic growth, ensures the effective use of natural resources, values environmental quality, and meets today's needs without compromising the ability of future generations to meet their own.",
         "policyParagraph2": "Within the scope of this sustainability policy, we carry out work in social, cultural, environmental and economic areas, and our hotel participates in practices that embrace this policy.",
         "pdfSectionTitle": "Sustainability Policy Document",
@@ -311,6 +320,8 @@
         "paragraph3": "For our latest opportunities and campaigns, please reach out to our reservations team or follow our communication channels. We will be happy to design the most suitable option for you."
     },
     "homeExperience": {
+        "eyebrow": "WHY US",
+        "title": "What Makes AirParkHotel Different",
         "nature": {
             "eyebrow": "NATURE & TRANQUILLITY",
             "title": "THE CENTER OF NATURE, CALM AND PRIVILEGE",

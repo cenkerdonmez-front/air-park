@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { AnimateOnScroll } from './AnimateOnScroll';
 import Link from 'next/link';
 import {
   Dialog,
@@ -35,7 +36,7 @@ export function GallerySection() {
   return (
     <section className="bg-brand-beige/30 pb-8 pt-2 border-y border-brand-primary/5">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12">
+        <AnimateOnScroll variant="scaleReveal" className="text-center mb-12">
           <span className="text-brand-primary font-bold tracking-wider  text-xl mb-2 block">
             {t('subtitle')}
           </span>
@@ -43,9 +44,9 @@ export function GallerySection() {
           <p className="text-gray-600  leading-relaxed max-w-2xl mx-auto mb-8">
             {t('description')}
           </p>
-        </div>
+        </AnimateOnScroll>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        <AnimateOnScroll variant="fadeUpStagger" stagger={0.05} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           {GALLERY_IMAGES.map((src, i) => (
             <button
               key={src}
@@ -62,16 +63,16 @@ export function GallerySection() {
               />
             </button>
           ))}
-        </div>
+        </AnimateOnScroll>
 
-        <div className="text-center mt-10">
+        <AnimateOnScroll variant="slideFromRight" className="text-center mt-10">
           <Button
             asChild
             className="bg-brand-primary text-white hover:bg-brand-primary/90 cursor-pointer px-8 py-3 text-[11px] font-bold uppercase tracking-widest rounded-sm"
           >
             <Link href="/gallery">{t('viewAll')}</Link>
           </Button>
-        </div>
+        </AnimateOnScroll>
       </div>
 
       <Dialog open={isOpen} onOpenChange={(open) => !open && closeLightbox()}>

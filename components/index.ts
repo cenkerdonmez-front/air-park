@@ -4,4 +4,6 @@ export { RoomCard } from './RoomCard';
 export { RoomsSection } from './RoomsSection';
 export { SustainabilitySection } from './SustainabilitySection';
 export { Footer } from './Footer';
+export { ScrollToTop } from './ScrollToTop';
+export { AnimateOnScroll } from './AnimateOnScroll';
 export { LocaleSwitcher } from './LocaleSwitcher';

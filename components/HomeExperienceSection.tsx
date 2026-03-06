@@ -2,15 +2,26 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { AnimateOnScroll } from './AnimateOnScroll';
 
 export function HomeExperienceSection() {
   const t = useTranslations('homeExperience');
 
   return (
     <section className="bg-brand-beige/30 border-y border-brand-primary/10 py-20">
-      <div className="max-w-6xl mx-auto px-6 space-y-20">
+      <div className="max-w-6xl mx-auto px-6">
+        <AnimateOnScroll variant="scaleReveal" className="text-center mb-16">
+          <span className="text-brand-primary/60 font-bold tracking-[0.2em] uppercase text-[10px] mb-2 block">
+            {t('eyebrow')}
+          </span>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-primary">
+            {t('title')}
+          </h2>
+        </AnimateOnScroll>
+        <div className="space-y-20">
         {/* Nature – image left, text right */}
         <div className="grid gap-10 md:grid-cols-2 items-center">
+          <AnimateOnScroll variant="slideFromLeft">
           <div className="relative h-64 md:h-80 rounded-3xl overflow-hidden bg-brand-primary/5 shadow-[0_24px_60px_rgba(0,0,0,0.12)]">
             <Image
               src="/gallery/1.jpg"
@@ -21,7 +32,9 @@ export function HomeExperienceSection() {
               priority
             />
           </div>
+          </AnimateOnScroll>
 
+          <AnimateOnScroll variant="slideFromRight" delay={0.15}>
           <div>
             <p className="text-[11px] font-bold tracking-[0.25em] uppercase text-brand-primary/60 mb-2">
               {t('nature.eyebrow')}
@@ -38,11 +51,13 @@ export function HomeExperienceSection() {
               <p>{t('nature.p3')}</p>
             </div>
           </div>
+          </AnimateOnScroll>
         </div>
 
         {/* Aviation – text left, image right */}
         <div className="grid gap-10 md:grid-cols-2 items-center">
-          <div className="order-2 md:order-1">
+          <AnimateOnScroll variant="slideFromLeft" className="order-2 md:order-1">
+          <div>
             <p className="text-[11px] font-bold tracking-[0.25em] uppercase text-brand-primary/60 mb-2">
               {t('aviation.eyebrow')}
             </p>
@@ -57,8 +72,10 @@ export function HomeExperienceSection() {
               <p>{t('aviation.p2')}</p>
             </div>
           </div>
+          </AnimateOnScroll>
 
-          <div className="relative h-64 md:h-80 rounded-3xl overflow-hidden bg-brand-primary/5 shadow-[0_24px_60px_rgba(0,0,0,0.12)] order-1 md:order-2">
+          <AnimateOnScroll variant="slideFromRight" delay={0.15} className="order-1 md:order-2">
+          <div className="relative h-64 md:h-80 rounded-3xl overflow-hidden bg-brand-primary/5 shadow-[0_24px_60px_rgba(0,0,0,0.12)]">
             <Image
               src="/gallery/4.jpg"
               alt={t('aviation.title')}
@@ -67,10 +84,12 @@ export function HomeExperienceSection() {
               sizes="(min-width: 1024px) 520px, (min-width: 768px) 50vw, 100vw"
             />
           </div>
+          </AnimateOnScroll>
         </div>
 
         {/* Solar – image left, text right */}
         <div className="grid gap-10 md:grid-cols-2 items-center">
+          <AnimateOnScroll variant="blurReveal">
           <div className="relative h-64 md:h-80 rounded-3xl overflow-hidden bg-brand-primary/5 shadow-[0_24px_60px_rgba(0,0,0,0.12)]">
             <Image
               src="/DJI_0941.JPG"
@@ -80,7 +99,9 @@ export function HomeExperienceSection() {
               sizes="(min-width: 1024px) 520px, (min-width: 768px) 50vw, 100vw"
             />
           </div>
+          </AnimateOnScroll>
 
+          <AnimateOnScroll variant="scaleReveal" delay={0.2}>
           <div>
             <p className="text-[11px] font-bold tracking-[0.25em] uppercase text-brand-primary/60 mb-2">
               {t('solar.eyebrow')}
@@ -96,6 +117,8 @@ export function HomeExperienceSection() {
               <p>{t('solar.p2')}</p>
             </div>
           </div>
+          </AnimateOnScroll>
+        </div>
         </div>
       </div>
     </section>

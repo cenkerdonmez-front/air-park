@@ -5,6 +5,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {getLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
+import { ScrollToTop } from '@/components/ScrollToTop';
 
 const inter = Inter({
   variable: "--font-inter",
@@ -75,6 +76,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
+          <ScrollToTop />
         </NextIntlClientProvider>
       </body>
     </html>

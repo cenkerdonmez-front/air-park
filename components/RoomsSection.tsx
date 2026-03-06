@@ -4,13 +4,14 @@ import { useTranslations } from 'next-intl';
 import { RoomCard } from './RoomCard';
 import Link from 'next/link';
 import { rooms } from '@/lib/roomsData';
+import { AnimateOnScroll } from './AnimateOnScroll';
 
 export function RoomsSection() {
   const t = useTranslations('rooms');
 
   return (
     <section className="py-16" id="rooms">
-      <div className="max-w-full mx-auto px-6 mb-8 flex items-baseline justify-between border-b border-brand-primary/10 pb-4">
+      <AnimateOnScroll variant="scaleReveal" className="max-w-full mx-auto px-6 mb-8 flex items-baseline justify-between border-b border-brand-primary/10 pb-4">
         <div>
           <h2 className="text-2xl font-extrabold text-brand-primary tracking-tight">
             {t('title')}
@@ -22,9 +23,9 @@ export function RoomsSection() {
         <Link className="text-[11px] font-bold text-brand-primary uppercase underline hover:opacity-80 transition-opacity" href="/rooms">
           {t('viewAll')}
         </Link>
-      </div>
+      </AnimateOnScroll>
       <div className="max-w-full mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <AnimateOnScroll variant="scaleRevealStagger" stagger={0.08} className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {rooms.map((room) => (
             <RoomCard
               key={room.key}
@@ -35,7 +36,7 @@ export function RoomsSection() {
               size={room.size}
             />
           ))}
-        </div>
+        </AnimateOnScroll>
       </div>
     </section>
   );

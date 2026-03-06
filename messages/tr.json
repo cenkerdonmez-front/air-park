@@ -15,7 +15,14 @@
     },
     "hero": {
         "title": "AirParkHotel",
-        "cta": "Rezervasyon Yap"
+        "tagline": "Pistin Yanında, Gökyüzüne Komşu",
+        "subtitle": "Havacılık, doğa ve sürdürülebilirliğin buluştuğu benzersiz konaklama deneyimi.",
+        "cta": "Rezervasyon Yap",
+        "stats": {
+            "rooms": "40 Oda & Süit",
+            "aviation": "Havacılık Merkezi Yanında",
+            "solar": "Özel Gölet"
+        }
     },
     "rooms": {
         "title": "Odalar & Süitler",
@@ -83,6 +90,8 @@
     "sustainability": {
         "subtitle": "Geleceğe Sözümüz",
         "title": "Sürdürülebilirlik",
+        "description": "Güneş panelleri ile yenilenebilir enerji. Çevresel kaliteye önem veren, gelecek kuşaklara sözümüzü tutan bir konaklama deneyimi.",
+        "cta": "Detaylı Bilgi",
         "policyParagraph1": "AirPark Hotel olarak ekolojik denge ile ekonomik büyümeyi birlikte ele alan, doğal kaynakların etkin kullanımını sağlayan, çevresel kaliteye önem veren ve gelecek kuşakların kendi ihtiyaçlarını karşılayabilmelerini tehlikeye sokmaksızın bugünkü ihtiyaçları karşılayabilen bir sürdürülebilirlik politikası yürütmekteyiz.",
         "policyParagraph2": "Sürdürülebilirlik politikası kapsamında sosyal, kültürel, çevresel ve ekonomik alanlarda çalışmalar gerçekleştirilmekte olup, otelimiz bu politikayı benimseyen uygulamalara katılmaktadır.",
         "pdfSectionTitle": "Sürdürülebilirlik Politikası Belgesi",
@@ -311,6 +320,8 @@
         "paragraph3": "Güncel fırsat ve kampanyalarımız için rezervasyon ekibimizle iletişime geçebilir veya iletişim kanallarımızı takip edebilirsiniz. Size en uygun seçeneği tasarlamaktan memnuniyet duyarız."
     },
     "homeExperience": {
+        "eyebrow": "NEDEN BİZ",
+        "title": "AirParkHotel'i Farklı Kılan Özellikler",
         "nature": {
             "eyebrow": "DOĞA & HUZUR",
             "title": "DOĞA, HUZUR VE AYRICALIĞIN MERKEZİ",
