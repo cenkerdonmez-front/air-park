@@ -3,11 +3,13 @@
         "brand": "AirParkHotel",
         "about": "Hakkımızda",
         "rooms": "Odalar",
+        "amenities": "Olanaklar",
         "opportunities": "Fırsatlar",
         "gallery": "Galeri",
         "spa": "Spa & Sağlık",
         "events": "Etkinlikler",
         "contact": "İletişim",
+        "contactTransport": "İletişim & Ulaşım",
         "arrival": "Ulaşım",
         "reservation": "Rezervasyon"
     },
@@ -36,7 +38,7 @@
         "closeModal": "Kapat",
         "features": {
             "airConditioningHeating": "Klima ve ısıtma",
-            "tv43": "43' HD Led TV",
+            "tv43": "43' HD LED TV",
             "minibar": "Minibar",
             "teaCoffee": "Çay ve Kahve Ünitesi",
             "babyCrib": "Bebek karyolası (istenirse)",
@@ -48,22 +50,22 @@
             "breakfast": "Açık Büfe Kahvaltı"
         },
         "deluxeTwinGardenView": {
-            "name": "Konforlu Çift Kişilik Standart Oda",
-            "beds": "1 Çift Kişilik Yatak",
-            "description": "Bahçe manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
-            "longDescription": "Havacılık ve Doğanın Buluştuğu Özel Manzara\nGökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler, ergonomik detaylar ve sessiz kırsal çevrenin ayrıcalığıyla, burada geçirilen her an gerçek bir ayrıcalığa dönüşür.\nAirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır"
+            "name": "Yeni Menekşe Tipi Odalar (Bahçe & Gölet Manzaralı Odalar)",
+            "beds": "1 Adet King Size Yatak",
+            "description": "Bahçe ve gölet manzaralı çift kişilik odalarımızda sessiz kırsal çevrenin ayrıcalığı ve göletin dinginliği ile rahat ve huzurlu bir konaklama.",
+            "longDescription": "Havacılık ve doğanın buluştuğu özel manzara… Gökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler, ergonomik detaylar ve sessiz kırsal çevrenin ayrıcalığıyla, burada geçirilen her an gerçek bir ayrıcalığa dönüşür. AirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır."
         },
         "deluxeTwinLakeView": {
-            "name": "Apron & Gölet Manzaralı Odalar",
-            "beds": "1 Çift Kişilik Yatak",
-            "description": "Apron ve gölet manzarasının buluştuğu bu odalarda, havacılığın enerjisi ile doğanın huzuru aynı pencerede yer alır. Modern tasarım ve sessiz çevre, konforlu ve ilham verici bir konaklama sunar.",
-            "longDescription": "Göletin huzur veren yüzeyi ve pistin dinamik enerjisi… Bu özel manzaralı odalarda, doğanın sessizliği ile havacılığın heyecanı kusursuz bir dengede buluşur. Optimist ve radyo kontrollü teknelerin süzüldüğü gölet, zihninizi dinlendiren eşsiz bir atmosfer sunarken, apron manzarası havacılığın yaşayan ruhunu her an hissetmenizi sağlar. Bu odalar, sadece konfor değil; ilham, huzur ve aidiyet duygusu sunar."
+            "name": "Mor Menekşe Tipi Odalar (Apron & Gölet Manzaralı Odalar)",
+            "beds": "1 Adet King Size Yatak",
+            "description": "Apron ve gölet manzaralı çift kişilik odalarımızda havacılığın ruhu ve pistin enerjisi ile doğanın huzuru aynı pencerede yer alıyor.",
+            "longDescription": "Göletin huzur veren yüzeyi ve pistin dinamik enerjisi… Bu özel manzaralı odalarda doğanın sessizliği ile havacılığın heyecanı kusursuz bir dengede buluşur. Optimist ve radyo kontrollü teknelerin süzüldüğü gölet, zihninizi dinlendiren eşsiz bir atmosfer sunarken, apron manzarası havacılığın yaşayan ruhunu her an hissetmenizi sağlar. Bu odalar sadece konfor değil ilham, huzur ve aidiyet duygusu sunar."
         },
         "deluxeFrenchGardenView": {
-            "name": "3 Kişilik Oda",
+            "name": "Nu.D-36 Tipi Odalar (Bahçe Manzaralı Üç Kişilik Odalar)",
             "beds": "1 Çift + 1 Tek Kişilik Yatak",
-            "description": "Bahçe manzaralı üç kişilik odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
-            "longDescription": "Bahçe manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."
+            "description": "Bahçe manzaralı üç kişilik modern tasarımlı odalarımızda huzur ve konforu keşfedin. Aileler ve arkadaş grupları için ideal.",
+            "longDescription": "Bahçe manzaralı üç kişilik modern tasarımlı odalarımızda huzur ve konforu keşfedin. Aileler ve arkadaş grupları için ideal."
         },
         "deluxeFrenchLakeView": {
             "name": "3 Kişilik Oda – Göl Manzarası",
@@ -72,10 +74,10 @@
             "longDescription": "Göl manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."
         },
         "deluxeFrenchCity": {
-        "name": "Suit Odalar",
-        "beds": "1 Çift Kişilik Yatak",
-        "description": "Suit odamızda geniş alan ve lüks konforu bir arada yaşayın. Özel tasarım detayları sizi bekliyor.",
-        "longDescription": "Gökyüzü Kadar Geniş, Ayrıcalık Kadar Özel\nGeniş yaşam alanları, sofistike tasarım ve üstün konfor… AirParkHotel suit odaları, havacılığın prestijini ve modern yaşamın zarafetini bir araya getirir.\nAileler, arkadaş grupları ve uzun süreli konaklamalar için ideal olan bu özel alanlar, hem iş hem dinlenme için kusursuz bir ortam sunar. Sessiz doğa, gölet manzarası ve havacılık atmosferinin birleşimi, burada geçirdiğiniz zamanı unutulmaz bir deneyime dönüştürür.\nBu sadece bir suit değil; gökyüzüne komşu, ayrıcalıklı bir yaşam alanıdır."
+        "name": "Vecihi XIV Tipi Odalar (Suit Odalar)",
+        "beds": "1 Adet King Size Yatak",
+        "description": "Suit odalarımızda geniş alanda lüks konforunu havacılığın prestiji ve modern yaşamın zarafeti ile bir arada yaşayın. Özel tasarım detayları sizi bekliyor.",
+        "longDescription": "Gökyüzünde yaşıyormuş hissini veren, ayrıcalıklı özel yaşam alanları, sofistike tasarım ve üstün konfor… AirParkHotel suit odaları, havacılığın prestijini ve modern yaşamın zarafetini bir araya getirir. Aileler, arkadaş grupları ve uzun süreli konaklamalar için ideal olan bu özel alanlar hem iş, hem dinlenme için kusursuz bir ortam sunar. Sessiz doğa, gölet manzarası ve havacılık atmosferinin birleşimi, burada geçirdiğiniz zamanı unutulmaz bir deneyime dönüştürür. Bu sadece bir suit değil; gökyüzüne komşu, ayrıcalıklı bir yaşam alanıdır."
         }
     },
     "sustainability": {
@@ -122,7 +124,9 @@
         "contact": {
             "title": "İletişim",
             "phone": "+90 222 724 30 40",
-            "email": "info@airparkhotel.com"
+            "phoneLabel": "Telefon",
+            "email": "info@airparkhotel.com",
+            "emailLabel": "EMAIL"
         },
         "social": {
             "title": "Takip Edin"
@@ -137,7 +141,8 @@
             "disclosure": "Aydınlatma Metni",
             "amenities": "Olanaklar",
             "cancellation": "İptal Koşulları",
-            "copyright": "© 2026 AirParkHotel. TÜM HAKLARI SAKLIDIR."
+            "copyrightBefore": "© 2026 AirParkHotel",
+            "copyrightAfter": "TÜM HAKLARI SAKLIDIR."
         }
     },
     "privacyPage": {
@@ -366,11 +371,11 @@
             "title": "HAVACILARA ÖZEL KONAKLAMA DENEYİMİ",
             "subtitle": "Uçuşa Hazır Konfor, Profesyonellere Özel Atmosfer",
             "p1": "AirParkHotel, sivil ve profesyonel havacılık faaliyetleri için özel olarak konumlandırılmış benzersiz bir tesistir. Pist ve apronun hemen yanında konaklama ayrıcalığı, pilotlar ve havacılık profesyonelleri için maksimum verim ve konfor sağlar.",
-            "p2": "Uçuş planları arasında dinlenmek, eğitim süreçlerinde odaklanmak veya sadece gökyüzüne yakın olmak isteyenler için AirParkHotel, sıradan bir otelden çok daha fazlasıdır."
+            "p2": "Uçuş planları arasında dinlenmek, eğitim süreçlerine odaklanmak veya sadece gökyüzüne yakın olmak isteyenler ile uçaklarını hangarlarımıza güvenle park eden pilotlar için AirParkHotel sıradan bir otelden çok daha fazlasıdır."
         },
         "solar": {
             "eyebrow": "GÜNEŞ ENERJİSİ",
-            "title": "GÜNEŞ PANELLERİYLE GÜÇLENEN OTEL DENEYİMİ",
+            "title": "GÜNEŞ PANELLERİYLE GÜÇLENEN ÇEVRE DOSTU DENEYİM",
             "subtitle": "Yenilenebilir Enerji, Sorumlu Konfor",
             "p1": "AirParkHotel’in geniş güneş paneli kurulumu, konaklamanıza temiz ve yenilenebilir enerji ile güç verir; karbon ayak izimizi azaltırken konfordan ödün vermeyiz.",
             "p2": "Güneş enerjisi yatırımlarımız ve modern altyapımız sayesinde, havacılık, doğa ve sürdürülebilirliği aynı manzarada buluşturuyor; ilham veren ve çevreye duyarlı bir konaklama deneyimi sunuyoruz."

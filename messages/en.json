@@ -3,11 +3,13 @@
         "brand": "AirParkHotel",
         "about": "About",
         "rooms": "Rooms",
+        "amenities": "Amenities",
         "opportunities": "Opportunities",
         "gallery": "Gallery",
         "spa": "Spa & Wellness",
         "events": "Events",
         "contact": "Contact",
+        "contactTransport": "Contact & Transport",
         "arrival": "Arrival",
         "reservation": "Reservation"
     },
@@ -48,22 +50,22 @@
             "breakfast": "Open Buffet Breakfast"
         },
         "deluxeTwinGardenView": {
-            "name": "Comfortable Double Standard Room",
-            "beds": "1 Double Bed",
-            "description": "Enjoy a comfortable stay in our garden view double room. Modern design and comfort combined.",
-            "longDescription": "A Special View Where Aviation and Nature Meet\nExperience the accommodation closest to the sky. These rooms, specially designed for civil and professional aviators, create an ideal atmosphere for focusing before flight, resting after flight, and renewing amidst nature. With modern lines, ergonomic details and the privilege of a quiet rural setting, every moment spent here becomes a true privilege.\nStaying at AirParkHotel is not just staying in a room; it is living an experience at the heart of aviation, next to the sky."
+            "name": "New Violet Type Rooms (Garden & Lake View Rooms)",
+            "beds": "1 King Size Bed",
+            "description": "In our garden and lake view double rooms, a comfortable and peaceful stay with the privilege of a quiet rural setting and the tranquillity of the lake.",
+            "longDescription": "A special view where aviation and nature meet… Experience the accommodation closest to the sky. These rooms, specially designed for civil and professional aviators, create an ideal atmosphere for focusing before flight, resting after flight, and renewing amidst nature. With modern lines, ergonomic details and the privilege of a quiet rural setting, every moment spent here becomes a true privilege. Staying at AirParkHotel is not just staying in a room; it is living an experience at the heart of aviation, next to the sky."
         },
         "deluxeTwinLakeView": {
-            "name": "Apron & Lake View Rooms",
-            "beds": "1 Double Bed",
-            "description": "In these rooms where apron and lake views meet, the energy of aviation and the calm of nature share the same window. Modern design and the tranquil setting create a comfortable and inspiring stay.",
-            "longDescription": "The calm surface of the lake and the dynamic energy of the runway… In these special view rooms, the silence of nature and the excitement of aviation meet in perfect balance. The lake where optimist and radio-controlled boats glide offers a unique atmosphere that restores your mind, while the apron view lets you feel the living spirit of aviation at every moment. These rooms offer not just comfort; but inspiration, peace and a sense of belonging."
+            "name": "Purple Violet Type Rooms (Apron & Lake View Rooms)",
+            "beds": "1 King Size Bed",
+            "description": "In our apron and lake view double rooms, the spirit of aviation, the energy of the runway and the peace of nature appear in the same window.",
+            "longDescription": "The calm surface of the lake and the dynamic energy of the runway… In these special view rooms, the silence of nature and the excitement of aviation meet in perfect balance. The lake where optimist and radio-controlled boats glide offers a unique atmosphere that restores your mind, while the apron view lets you feel the living spirit of aviation at every moment. These rooms offer not just comfort but inspiration, peace and a sense of belonging."
         },
         "deluxeFrenchGardenView": {
-            "name": "Triple Room",
+            "name": "Nu.D-36 Type Rooms (Garden View Triple Rooms)",
             "beds": "1 Double + 1 Single Bed",
-            "description": "Discover comfort in our garden view triple room, accommodating up to three guests. Ideal for families or friends.",
-            "longDescription": "Our garden view triple room offers 30 square meters of refined living space. With one double and one single bed and sophisticated interior design, it provides a comfortable stay for up to three guests."
+            "description": "Discover peace and comfort in our garden view triple rooms with modern design. Ideal for families and groups of friends.",
+            "longDescription": "Discover peace and comfort in our garden view triple rooms with modern design. Ideal for families and groups of friends."
         },
         "deluxeFrenchLakeView": {
             "name": "Triple Room – Lake View",
@@ -72,10 +74,10 @@
             "longDescription": "Our lake view triple room offers 30 square meters of refined living space. With one double and one single bed and sophisticated interior design, it provides a comfortable stay for up to three guests."
         },
         "deluxeFrenchCity": {
-        "name": "Suite Rooms",
-        "beds": "1 Double Bed",
-        "description": "Experience spacious luxury in our suite. Thoughtful design details await you.",
-        "longDescription": "As Spacious as the Sky, As Special as Privilege\nSpacious living areas, sophisticated design and superior comfort… AirParkHotel suite rooms bring together the prestige of aviation and the elegance of modern living.\nThese special spaces, ideal for families, groups of friends and extended stays, offer a perfect environment for both work and rest. The combination of quiet nature, lake view and aviation atmosphere transforms your time here into an unforgettable experience.\nThis is not just a suite; it is a privileged living space next to the sky."
+        "name": "Vecihi XIV Type Rooms (Suite Rooms)",
+        "beds": "1 King Size Bed",
+        "description": "Experience luxurious comfort in our spacious suite rooms, combining the prestige of aviation with the elegance of modern living. Thoughtful design details await you.",
+        "longDescription": "Privileged living spaces that make you feel as if you are living in the sky, sophisticated design and superior comfort… AirParkHotel suite rooms bring together the prestige of aviation and the elegance of modern living. These special spaces, ideal for families, groups of friends and extended stays, offer a perfect environment for both work and rest. The combination of quiet nature, lake view and aviation atmosphere transforms your time here into an unforgettable experience. This is not just a suite; it is a privileged living space next to the sky."
         }
     },
     "sustainability": {
@@ -122,7 +124,9 @@
         "contact": {
             "title": "Contact",
             "phone": "+90 222 724 30 40",
-            "email": "info@airparkhotel.com"
+            "phoneLabel": "Phone",
+            "email": "info@airparkhotel.com",
+            "emailLabel": "Email"
         },
         "social": {
             "title": "Follow Us"
@@ -137,7 +141,8 @@
             "disclosure": "Disclosure Text",
             "amenities": "Amenities",
             "cancellation": "Cancellation Policy",
-            "copyright": "© 2026 AirParkHotel. ALL RIGHTS RESERVED."
+            "copyrightBefore": "© 2026 AirParkHotel",
+            "copyrightAfter": "ALL RIGHTS RESERVED."
         }
     },
     "privacyPage": {
@@ -366,11 +371,11 @@
             "title": "A TAILORED STAY FOR AVIATORS",
             "subtitle": "Ready‑for‑Flight Comfort, A Professional Atmosphere",
             "p1": "AirParkHotel is a distinctive property positioned specifically for civil and professional aviation activities. The privilege of staying right next to the runway and apron offers maximum efficiency and comfort for pilots and aviation professionals.",
-            "p2": "For those who want to rest between flight plans, stay focused during training programmes or simply feel closer to the sky, AirParkHotel is much more than an ordinary hotel."
+            "p2": "For those who want to rest between flight plans, focus on training processes, or simply be close to the sky, and for pilots who safely park their aircraft in our hangars, AirParkHotel is much more than an ordinary hotel."
         },
         "solar": {
             "eyebrow": "SUSTAINABLE ENERGY",
-            "title": "SOLAR-POWERED HOTEL EXPERIENCE",
+            "title": "AN ECO-FRIENDLY EXPERIENCE POWERED BY SOLAR PANELS",
             "subtitle": "Renewable Energy, Responsible Comfort",
             "p1": "AirParkHotel’s extensive solar panel installation helps power your stay with clean, renewable energy, reducing our carbon footprint without compromising on comfort.",
             "p2": "By investing in solar energy and modern infrastructure, we combine aviation, nature and sustainability in a single landscape, offering a stay that is both inspiring and environmentally conscious."

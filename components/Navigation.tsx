@@ -40,17 +40,17 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
               <Link className="hover:text-brand-primary transition-colors" href="/rooms">
                 {t('nav.rooms')}
               </Link>
+              <Link className="hover:text-brand-primary transition-colors" href="/amenities">
+                {t('nav.amenities')}
+              </Link>
               <Link className="hover:text-brand-primary transition-colors" href="/opportunities">
                 {t('nav.opportunities')}
               </Link>
               <Link className="hover:text-brand-primary transition-colors" href="/gallery">
                 {t('nav.gallery')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="/contact#contact">
-                {t('nav.contact')}
-              </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="/contact#transport">
-                {t('nav.arrival')}
+              <Link className="hover:text-brand-primary transition-colors" href="/contact">
+                {t('nav.contactTransport')}
               </Link>
             </div>
           </div>
@@ -144,6 +144,13 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
+              href="/amenities"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t('nav.amenities')}
+            </Link>
+            <Link 
+              className="hover:text-brand-primary transition-colors py-2" 
               href="/opportunities"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -158,17 +165,10 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="/contact#contact"
+              href="/contact"
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('nav.contact')}
-            </Link>
-            <Link 
-              className="hover:text-brand-primary transition-colors py-2" 
-              href="/contact#transport"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('nav.arrival')}
+              {t('nav.contactTransport')}
             </Link>
           </div>
 

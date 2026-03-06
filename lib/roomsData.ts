@@ -15,9 +15,9 @@ export interface Room {
 
 export const rooms: Room[] = [
   {
-    slug: 'deluxe-twin-garden-view',
-    key: 'deluxeTwinGardenView',
-    images: [ '/rooms/1/5.jpg', '/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg',],
+    slug: 'deluxe-twin-lake-view',
+    key: 'deluxeTwinLakeView',
+    images: ['/rooms/1/6.jpg', '/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg'],
     size: 30,
     capacity: {
       adults: 2,
@@ -27,9 +27,9 @@ export const rooms: Room[] = [
     features: ['airConditioningHeating', 'tv43', 'minibar', 'teaCoffee', 'babyCrib', 'shower', 'slippers', 'hairdryer', 'wifi', 'parking', 'breakfast'],
   },
   {
-    slug: 'deluxe-twin-lake-view',
-    key: 'deluxeTwinLakeView',
-    images: ['/rooms/1/6.jpg', '/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg'],
+    slug: 'deluxe-twin-garden-view',
+    key: 'deluxeTwinGardenView',
+    images: [ '/rooms/1/5.jpg', '/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg',],
     size: 30,
     capacity: {
       adults: 2,
