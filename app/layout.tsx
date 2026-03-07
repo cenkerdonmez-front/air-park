@@ -1,5 +1,5 @@
 
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
@@ -7,10 +7,17 @@ import {getLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import { ScrollToTop } from '@/components/ScrollToTop';
 
-const inter = Inter({
+const inter = localFont({
   variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap",
+  src: [
+    { path: "../public/fonts/inter-300.woff2", weight: "300", style: "normal" },
+    { path: "../public/fonts/inter-400.woff2", weight: "400", style: "normal" },
+    { path: "../public/fonts/inter-500.woff2", weight: "500", style: "normal" },
+    { path: "../public/fonts/inter-600.woff2", weight: "600", style: "normal" },
+    { path: "../public/fonts/inter-700.woff2", weight: "700", style: "normal" },
+    { path: "../public/fonts/inter-800.woff2", weight: "800", style: "normal" },
+  ],
 });
 
 export async function generateMetadata() {
