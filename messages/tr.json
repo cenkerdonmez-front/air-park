@@ -176,7 +176,7 @@
         },
         "laundryIron": {
             "title": "Çamaşır ve Ütü",
-            "description": "Çamaşır ve ütü imkânlarımız sayesinde hafif yolculuk edebilir, konaklamanız boyunca kıyafetlerinizi taze tutabilirsiniz."
+            "description": "Çamaşır ve ütü imkanlarımız sayesinde hafif yolculuk edebilir, konaklamanız boyunca kıyafetlerinizi taze tutabilirsiniz."
         },
         "openBreakfast": {
             "title": "Açık Büfe Kahvaltı",
@@ -211,7 +211,7 @@
     "meeting": {
         "title": "Etkinlikler",
         "subtitle": "Profesyonel Etkinlik Alanları",
-        "description": "Doğum günü, düğün, nişan, iş etkinliği veya özel günlerinizi AirParkHotel'de düzenleyin. Modern mekânlarımız ve profesyonel hizmetlerimizle unutulmaz bir etkinlik yaşayın.",
+        "description": "Doğum günü, düğün, nişan, iş etkinliği veya özel günlerinizi AirParkHotel'de düzenleyin. Modern mekanlarımız ve profesyonel hizmetlerimizle unutulmaz bir etkinlik yaşayın.",
         "facilities": "Etkinlik Alanlarımız",
         "conferenceRooms": "Kapalı Etkinlik Salonu",
         "boardRoom": "Özel Etkinlik Odası",
@@ -221,7 +221,7 @@
         "capacityInfo": "10 ila 500 misafir",
         "services": "Etkinlik Hizmetleri",
         "catering": "Profesyonel Yemek ve İkram",
-        "setup": "Esnek Mekân Düzenlemesi",
+        "setup": "Esnek Mekan Düzenlemesi",
         "support": "Teknik Destek",
         "wifi": "Yüksek Hızlı WiFi",
         "inquiryCta": "Teklif İsteyin",
@@ -298,9 +298,9 @@
         "parkingWarning": "Gösteri emniyeti sebebiyle, yol üzerinde araç parkına izin verilmeyecektir."
     },
     "aboutPage": {
-        "title": "AirParkHotel Hikâyesi",
+        "title": "AirParkHotel Hikayesi",
         "subtitle": "Gökyüzüne En Yakın Konaklama",
-        "description": "Hikâyemizi, ruhumuzu ve her misafir için yarattığımız eşsiz deneyimi keşfedin.",
+        "description": "Hikayemizi, ruhumuzu ve her misafir için yarattığımız eşsiz deneyimi keşfedin.",
         "paragraph1": "AirParkHotel, havacılık kültürü ile rafine konforun buluştuğu çağdaş bir konaklama noktası olarak tasarlandı. Sivrihisar Havacılık Merkezi’nin hemen yanında yer alan otelimiz, pisti çevreleyen dinamizm ile manzaranın dinginliğini bir arada sunan benzersiz bir deneyim sağlar.",
         "paragraph2": "Odalarımız ve süitlerimiz, işlevsel şıklık anlayışıyla oluşturuldu: İhtiyacınız olan her şey, abartıdan uzak, özenle seçilmiş detaylarla bir araya getirildi. Kullandığımız malzemelerden sunduğumuz hizmetlere kadar her adımda kaliteyi, pratikliği ve sıcak bir karşılama hissini ön planda tutuyoruz.",
         "paragraph3": "İster kısa bir mola için, ister hafta sonu kaçamağı ya da özel bir etkinlik için bizde konaklayın; ekibimiz konaklamanızın zahmetsiz ve unutulmaz geçmesi için çalışır. Sizi AirPark Hotel’de ağırlamaktan mutluluk duyarız."

@@ -23,17 +23,19 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
         <div className="max-w-full mx-auto px-6 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-12">
             <Link className="flex items-center" href="/">
-              <Image 
-                src="/AirParkHotel_Logo_RGB.png" 
-                alt="AirPark Hotel Logo" 
-                width={200} 
-                height={120}
-                priority
-                className="h-8 w-auto"
-              />
+              <div className="relative h-8" style={{ width: '240px' }}>
+                <Image 
+                  src="/AirParkHotel_Logo_RGB.png" 
+                  alt="AirPark Hotel Logo" 
+                  fill
+                  priority
+                  sizes="240px"
+                  className="object-contain object-left"
+                />
+              </div>
             </Link>
             {/* Desktop Menu */}
-            <div className="hidden lg:flex items-center space-x-6 text-[13px] font-bold uppercase tracking-wider text-brand-primary/80">
+            <div className="hidden lg:flex items-center w-full space-x-2 xl:space-x-12 text-[13px] font-bold uppercase tracking-wider text-brand-primary/80">
               <Link className="hover:text-brand-primary transition-colors" href="/about">
                 {t('nav.about')}
               </Link>
