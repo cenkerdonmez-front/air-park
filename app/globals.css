@@ -48,6 +48,7 @@
   /* AirPark Hotel Custom Colors */
   --color-brand-primary: #015C54;
   --color-brand-gold: #b8734f;
+  --color-brand-beige: #FCF9F3;
   --color-background-cream: #FCF9F3;
   --color-text-dark: #1a1a1a;
 }
@@ -125,8 +126,13 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
   .hero-overlay {
     background: linear-gradient(to bottom, rgba(1, 92, 84, 0.4), rgba(1, 92, 84, 0.7));
