@@ -23,7 +23,10 @@ export function PartnersSection() {
           {PARTNER_CARDS.map(({ key, logo, title, url }) => (
             <Card
               key={key}
-              className="border-brand-primary/10 overflow-hidden flex flex-col items-center text-center hover:shadow-md transition-shadow"
+              onClick={() => {
+                window.open(url, '_blank');
+              }}
+              className="border-brand-primary/10 cursor-pointer bg-brand-primary/10 overflow-hidden flex flex-col items-center text-center hover:shadow-md transition-shadow"
             >
               <CardHeader className="w-full flex flex-col items-center pt-8 pb-2">
                 <div className="relative w-32 h-32 min-h-32 flex items-center justify-center">
@@ -32,7 +35,7 @@ export function PartnersSection() {
                     alt={title}
                     width={128}
                     height={128}
-                    className={`object-contain w-full h-full ${key === 'mso' ? 'scale-125' : ''}`}
+                    className={`object-contain w-full h-full ${key === 'mso'  ? 'scale-175' : ''} ${key === 'lokantaSenan' ? 'scale-125' : ''}`}
                   />
                 </div>
               </CardHeader>

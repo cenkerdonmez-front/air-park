@@ -40,7 +40,7 @@ export default function AmenitiesPage() {
               return (
                 <div
                   key={key}
-                  className="flex gap-5 p-6 rounded-2xl bg-brand-beige/20 border border-brand-primary/5 hover:bg-brand-beige/30 transition-colors"
+                  className="flex gap-5 p-6 rounded-2xl bg-brand-primary/10 border border-brand-primary/5 "
                 >
                   <div className="shrink-0 w-12 h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
                     <Icon className="w-6 h-6 text-brand-primary" />

@@ -183,7 +183,7 @@ export default function RoomPage({ params }: RoomPageProps) {
                   onKeyDown={(e) => e.stopPropagation()}
                 >
                   <span>{formatRoomSize(room.size)}</span>
-                  <span className="text-[10px] uppercase tracking-widest opacity-80">m2</span>
+                  <span className="text-[10px] uppercase tracking-widest opacity-80">m²</span>
                 </div>
 
                 {/* Carousel Controls - stop propagation so clicking them doesn't open modal */}

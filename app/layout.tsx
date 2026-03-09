@@ -1,5 +1,5 @@
 
-import localFont from "next/font/local";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
@@ -7,17 +7,11 @@ import {getLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import { ScrollToTop } from '@/components/ScrollToTop';
 
-const inter = localFont({
-  variable: "--font-inter",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   display: "swap",
-  src: [
-    { path: "../public/fonts/inter-300.woff2", weight: "300", style: "normal" },
-    { path: "../public/fonts/inter-400.woff2", weight: "400", style: "normal" },
-    { path: "../public/fonts/inter-500.woff2", weight: "500", style: "normal" },
-    { path: "../public/fonts/inter-600.woff2", weight: "600", style: "normal" },
-    { path: "../public/fonts/inter-700.woff2", weight: "700", style: "normal" },
-    { path: "../public/fonts/inter-800.woff2", weight: "800", style: "normal" },
-  ],
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 export async function generateMetadata() {
@@ -65,7 +59,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="scroll-smooth overflow-x-hidden">
       <body
-        className={`${inter.variable} font-body antialiased bg-background-cream text-text-dark overflow-x-hidden`}
+        className={`${montserrat.variable} font-body antialiased bg-background-cream text-text-dark overflow-x-hidden`}
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}

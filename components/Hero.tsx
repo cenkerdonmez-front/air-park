@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Logo from '@/assets/logo.svg';
 import Link from 'next/link';
 import { useCallback, useEffect, useState, useRef } from 'react';
 import gsap from 'gsap';
@@ -110,8 +111,8 @@ export function Hero() {
         <p className="text-white/95 text-sm md:text-base font-semibold tracking-[0.3em] uppercase mb-3">
           {t('tagline')}
         </p>
-        <h1 className="text-white text-5xl md:text-7xl font-extrabold mb-4 tracking-tight">
-          {t('title')}
+        <h1 className="mb-4 flex justify-center" aria-label={t('title')}>
+          <Logo className="h-9 w-auto max-w-[90vw] sm:h-11 md:h-14 lg:h-16 xl:h-20" />
         </h1>
         <p className="text-white/90 text-base md:text-lg max-w-xl mb-8">
           {t('subtitle')}

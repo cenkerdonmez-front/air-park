@@ -42,36 +42,36 @@ export default function ContactPage() {
               href={GOOGLE_MAPS_DIRECTIONS_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300"
+              className="group block bg-brand-primary/10 p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300"
             >
-              <MapPin className="text-gray-400 text-3xl mb-4 group-hover:scale-110 transition-transform" />
-              <h4 className="text-[10px]  text-gray-500 tracking-widest uppercase mb-2">
+              <MapPin className="text-brand-primary text-3xl mb-4 group-hover:scale-110 transition-transform" />
+              <h4 className="text-[10px]  text-brand-primary tracking-widest uppercase mb-2">
                 {tFooter('contact.addressLabel')}
               </h4>
-              <p className="text-gray-500 leading-relaxed whitespace-pre-line">
+              <p className="text-brand-primary leading-relaxed whitespace-pre-line">
                 {tFooter('contact.address')}
               </p>
             </a>
-            <div className="group bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300">
-              <Phone className="text-gray-400 text-3xl mb-4 group-hover:scale-110 transition-transform" />
-              <h4 className="text-[10px]  text-gray-500 tracking-widest uppercase mb-2">
+            <div className="group bg-brand-primary/10 p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300">
+              <Phone className="text-brand-primary text-3xl mb-4 group-hover:scale-110 transition-transform" />
+              <h4 className="text-[10px]  text-brand-primary tracking-widest uppercase mb-2">
                 {tFooter('contact.phoneLabel')}
               </h4>
               <a
                 href={`tel:${tFooter('contact.phone').replace(/\s/g, '')}`}
-                className="text-gray-500 text-xl hover:text-gray-600 transition-colors block"
+                className="text-brand-primary text-xl hover:text-gray-600 transition-colors block"
               >
                 {tFooter('contact.phone')}
               </a>
             </div>
-            <div className="group bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300">
-              <Mail className="text-gray-400 text-3xl mb-4 group-hover:scale-110 transition-transform" />
-              <h4 className="text-[10px]  text-gray-500 tracking-widest uppercase mb-2">
+            <div className="group bg-brand-primary/10 p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300">
+              <Mail className="text-brand-primary text-3xl mb-4 group-hover:scale-110 transition-transform" />
+              <h4 className="text-[10px]  text-brand-primary tracking-widest uppercase mb-2">
                 {tFooter('contact.emailLabel')}
               </h4>
               <a
                 href={`mailto:${tFooter('contact.email')}`}
-                className="text-gray-500  text-lg hover:text-gray-600 transition-colors block break-all"
+                className="text-brand-primary  text-lg hover:text-gray-600 transition-colors block break-all"
               >
                 {tFooter('contact.email')}
               </a>

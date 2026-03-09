@@ -19,7 +19,7 @@ export function RoomCard({ slug, name, description, image, size }: RoomCardProps
   const t = useTranslations();
 
   return (
-    <div className="bg-white border border-brand-primary/5 overflow-hidden flex flex-col">
+    <div className="bg-brand-primary/10 border border-brand-primary/5 overflow-hidden flex flex-col">
       <div className="relative aspect-[4/3] overflow-hidden">
       <Link href={`/rooms/${slug}`}>
         <Image

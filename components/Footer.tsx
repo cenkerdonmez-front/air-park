@@ -3,9 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Instagram } from 'lucide-react';
-import { Facebook } from 'lucide-react';
-import { Twitter } from 'lucide-react';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -62,12 +59,12 @@ export function Footer() {
           </div> */}
         </div>
 
-        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[9px] font-bold uppercase tracking-widest text-white/40 gap-4">
+        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[9px] font-bold  tracking-widest text-white/40 gap-4">
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
-            <Link className="hover:text-white transition-colors" href="/sustainability">
+            <Link className="hover:text-white transition-colors uppercase" href="/sustainability">
               {t('legal.sustainability')}
             </Link>
-            <Link className="hover:text-white transition-colors" href="/privacy">
+            <Link className="hover:text-white transition-colors uppercase" href="/privacy">
               {t('legal.privacy')}
             </Link>
           </div>
