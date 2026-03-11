@@ -10,12 +10,12 @@ export function Footer() {
   return (
     <footer className="bg-brand-primary text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-12 pb-12 border-b border-white/10">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 mb-12 pb-12 border-b border-white/10">
           <h4 className="text-xl font-bold mb-6 md:mb-0">
             {t('cta.title')}
           </h4>
           <Link href="/contact">
-            <Button className="bg-white cursor-pointer text-brand-primary hover:bg-white/90 px-10 py-3 text-xs font-bold uppercase tracking-widest rounded-sm">
+            <Button className="w-full sm:w-auto bg-white cursor-pointer text-brand-primary hover:bg-white/90 px-6 sm:px-10 py-3 text-[10px] sm:text-xs font-bold uppercase tracking-wide sm:tracking-widest rounded-sm text-center whitespace-normal">
               {t('cta.button')}
             </Button>
           </Link>

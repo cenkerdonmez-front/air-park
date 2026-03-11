@@ -117,12 +117,12 @@
     },
     "footer": {
         "cta": {
-            "title": "Book your place for an unforgettable experience.",
-            "button": "Stay With Us"
+            "title": "Book your place for an unforgettable experience at the heart of aviation, next to the sky...",
+            "button": "For an unforgettable experience, book your place"
         },
         "address": {
             "title": "Address",
-            "content": "Sivrihisar Havacılık Merkezi, Yeşilköy\n26600 Sivrihisar/Eskişehir"
+            "content": "Sivrihisar Havacılık Merkezi, Yeşilköy\n26600 Sivrihisar / Eskişehir"
         },
         "contact": {
             "title": "Contact",
@@ -131,7 +131,7 @@
             "email": "info@airparkhotel.com",
             "emailLabel": "Email",
             "addressLabel": "Address",
-            "address": "Sivrihisar Aviation Center, Yeşilköy\n26600 Sivrihisar/Eskişehir"
+            "address": "Sivrihisar Aviation Center, Yeşilköy\n26600 Sivrihisar / Eskişehir"
         },
         "social": {
             "title": "Follow Us"
