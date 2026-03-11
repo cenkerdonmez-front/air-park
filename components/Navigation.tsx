@@ -58,13 +58,13 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
           </div>
           <div className="flex items-center space-x-4">
             <LocaleSwitcher />
-            <Link href="/booking">
+            {/* <Link href="/booking">
               <Button 
                 className="hidden lg:inline-flex bg-brand-primary hover:bg-brand-primary/90 text-white px-5 py-2 rounded-sm text-[11px] font-bold uppercase tracking-wider"
               >
                 {t('nav.reservation')}
               </Button>
-            </Link>
+            </Link> */}
             {/* Hamburger Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -175,7 +175,7 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
           </div>
 
           {/* Mobile Menu Footer with Reservation Button */}
-          <div className="mt-auto px-6 py-6 border-t border-brand-primary/10">
+          {/* <div className="mt-auto px-6 py-6 border-t border-brand-primary/10">
             <Link href="/booking" className="block">
               <Button 
                 className="w-full bg-brand-primary hover:bg-brand-primary/90 text-white px-5 py-3 rounded-sm text-[11px] font-bold uppercase tracking-wider"
@@ -184,7 +184,7 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
                 {t('nav.reservation')}
               </Button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

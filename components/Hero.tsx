@@ -117,11 +117,11 @@ export function Hero() {
         <p className="text-white/90 text-base md:text-lg max-w-xl mb-8">
           {t('subtitle')}
         </p>
-        <Link href="/booking">
+        {/* <Link href="/booking">
           <Button className="bg-white text-brand-primary hover:bg-white/90 px-8 py-3 rounded-sm text-xs font-bold uppercase tracking-widest">
             {t('cta')}
           </Button>
-        </Link>
+        </Link> */}
 
         {/* Quick stats */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-wrap justify-center gap-6 md:gap-10 text-white/90 text-sm font-medium">

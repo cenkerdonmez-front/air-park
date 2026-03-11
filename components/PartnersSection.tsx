@@ -3,7 +3,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
-import { AnimateOnScroll } from './AnimateOnScroll';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { ExternalLink } from 'lucide-react';
 
@@ -19,7 +18,7 @@ export function PartnersSection() {
   return (
     <section className="bg-brand-beige/30 py-16 border-t border-brand-primary/10">
       <div className="max-w-7xl mx-auto px-6">
-        <AnimateOnScroll variant="scaleRevealStagger" stagger={0.12} className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {PARTNER_CARDS.map(({ key, logo, title, url }) => (
             <Card
               key={key}
@@ -55,7 +54,7 @@ export function PartnersSection() {
               </CardContent>
             </Card>
           ))}
-        </AnimateOnScroll>
+        </div>
       </div>
     </section>
   );

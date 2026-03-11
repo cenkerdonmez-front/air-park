@@ -14,8 +14,8 @@ export function Footer() {
           <h4 className="text-xl font-bold mb-6 md:mb-0">
             {t('cta.title')}
           </h4>
-          <Link href="/booking">
-            <Button className="bg-white text-brand-primary hover:bg-white/90 px-10 py-3 text-xs font-bold uppercase tracking-widest rounded-sm">
+          <Link href="/contact">
+            <Button className="bg-white cursor-pointer text-brand-primary hover:bg-white/90 px-10 py-3 text-xs font-bold uppercase tracking-widest rounded-sm">
               {t('cta.button')}
             </Button>
           </Link>

@@ -18,7 +18,7 @@ export const rooms: Room[] = [
     slug: 'deluxe-twin-lake-view',
     key: 'deluxeTwinLakeView',
     images: ['/rooms/1/6.jpg', '/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg'],
-    size: 30,
+    size: 33,
     capacity: {
       adults: 2,
       children: 0,
@@ -30,7 +30,7 @@ export const rooms: Room[] = [
     slug: 'deluxe-twin-garden-view',
     key: 'deluxeTwinGardenView',
     images: [ '/rooms/1/5.jpg', '/rooms/1/1.jpg', '/rooms/1/2.jpg', '/rooms/1/3.jpg',],
-    size: 30,
+    size: 33,
     capacity: {
       adults: 2,
       children: 0,
@@ -42,7 +42,7 @@ export const rooms: Room[] = [
     slug: 'deluxe-french-garden-view',
     key: 'deluxeFrenchGardenView',
     images: ['/rooms/2/1.jpg', '/rooms/2/2.jpg', '/rooms/2/3.jpg', '/rooms/2/4.jpg'],
-    size: 30,
+    size: 33,
     capacity: {
       adults: 3,
       children: 0,
