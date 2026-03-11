@@ -90,8 +90,8 @@ export function Hero() {
       >
         <CarouselContent className="h-full">
           {HERO_IMAGES.map((img) => (
-            <CarouselItem key={img.src} className="h-full min-w-full flex-[0_0_100%] pl-0">
-              <div className="relative h-[85vh] min-h-[500px] w-full">
+            <CarouselItem key={img.src} className="h-full  min-w-full flex-[0_0_100%] pl-0">
+              <div className="relative h-[85vh]  min-h-[500px] w-full">
                 <Image
                   alt={img.alt}
                   className="object-cover"
@@ -107,7 +107,7 @@ export function Hero() {
         </CarouselContent>
       </Carousel>
 
-      <div ref={overlayRef} className="absolute inset-0  flex flex-col items-center justify-center text-center px-4">
+      <div ref={overlayRef} className="absolute inset-0 hero-overlay flex flex-col items-center justify-center text-center px-4">
         <p className="text-white/95 text-sm md:text-base font-semibold tracking-[0.3em] uppercase mb-3">
           {t('tagline')}
         </p>
